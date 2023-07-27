@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="subscription_kit" label="Subscription Kit" language="en" table="x_788877_fob_admissions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>subscription_kit</element>
+            <help/>
+            <hint/>
+            <label>Subscription Kit</label>
+            <language>en</language>
+            <name>x_788877_fob_admissions</name>
+            <plural>Subscription Kits</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-18 22:09:26</sys_created_on>
+            <sys_id>be5b0c3297083110bc779934a253af69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Subscription Kit</sys_name>
+            <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+            <sys_update_name>sys_documentation_x_788877_fob_admissions_subscription_kit_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-18 22:09:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

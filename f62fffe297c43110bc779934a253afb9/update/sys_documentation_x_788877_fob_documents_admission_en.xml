@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="admission" label="Admission" language="en" table="x_788877_fob_documents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>admission</element>
+            <help/>
+            <hint/>
+            <label>Admission</label>
+            <language>en</language>
+            <name>x_788877_fob_documents</name>
+            <plural>Admissions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-18 22:12:57</sys_created_on>
+            <sys_id>6e2c887297083110bc779934a253af26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Admission</sys_name>
+            <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+            <sys_update_name>sys_documentation_x_788877_fob_documents_admission_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-18 22:12:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
