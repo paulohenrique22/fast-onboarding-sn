@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_788877_fob_kits" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Kits - Default view" name="x_788877_fob_kits" related_list="NULL" sys_domain="global" view="Default view">6577c83e97c43110bc779934a253af0f</list_id>
+            <list_id display_value="Kits - Default view" name="x_788877_fob_kits" related_list="NULL" sys_domain="global" view="Default view">719465b12f98b11010dfa1fef699b664</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_788877_fob_m2m_kit_templates.kit</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 21:52:25</sys_created_on>
-            <sys_id>2d77c83e97c43110bc779934a253af10</sys_id>
+            <sys_created_on>2023-07-28 12:21:05</sys_created_on>
+            <sys_id>bd9465b12f98b11010dfa1fef699b664</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 21:52:25</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:21:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Kits - Default view" name="x_788877_fob_kits" related_list="NULL" sys_domain="global" view="Default view">719465b12f98b11010dfa1fef699b664</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_788877_fob_m2m_kit_documents.kit</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-28 12:21:05</sys_created_on>
+            <sys_id>b19465b12f98b11010dfa1fef699b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-28 12:21:05</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Kits - Default view</calculated_name>
@@ -23,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 21:52:25</sys_created_on>
+            <sys_created_on>2023-07-28 12:21:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6577c83e97c43110bc779934a253af0f</sys_id>
+            <sys_id>719465b12f98b11010dfa1fef699b664</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Kits - Default view</sys_name>
             <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
@@ -34,7 +48,7 @@
             <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
             <sys_update_name>sys_ui_related_x_788877_fob_kits_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 21:52:25</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:21:05</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

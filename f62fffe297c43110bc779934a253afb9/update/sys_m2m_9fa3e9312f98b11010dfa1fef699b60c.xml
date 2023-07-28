@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_788877_fob_kits</from_table>
+        <m2m_from_field>kit</m2m_from_field>
+        <m2m_from_label>Document</m2m_from_label>
+        <m2m_table>x_788877_fob_m2m_kit_documents</m2m_table>
+        <m2m_to_field>document</m2m_to_field>
+        <m2m_to_label>Kit</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 12:18:52</sys_created_on>
+        <sys_id>9fa3e9312f98b11010dfa1fef699b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_788877_fob_m2m_kit_documents</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_m2m_9fa3e9312f98b11010dfa1fef699b60c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 12:18:52</sys_updated_on>
+        <to_table>x_788877_fob_document_type</to_table>
+    </sys_m2m>
+</record_update>

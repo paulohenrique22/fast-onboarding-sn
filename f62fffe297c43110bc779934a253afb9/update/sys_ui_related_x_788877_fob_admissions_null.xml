@@ -2,45 +2,59 @@
     <sys_ui_related sys_domain="global" table="x_788877_fob_admissions" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">2d0d08b297083110bc779934a253afb9</list_id>
+            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">eb6bed792f98b11010dfa1fef699b622</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:16:43</sys_created_on>
-            <sys_id>290d08b297083110bc779934a253afba</sys_id>
+            <sys_created_on>2023-07-28 12:50:58</sys_created_on>
+            <sys_id>bf6ba1b92f98b11010dfa1fef699b626</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:16:43</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:50:58</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">2d0d08b297083110bc779934a253afb9</list_id>
+            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">eb6bed792f98b11010dfa1fef699b622</list_id>
             <order_by/>
             <position>1</position>
             <related_list>REL:1a4c0c7297083110bc779934a253af51</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:16:43</sys_created_on>
-            <sys_id>2d0d08b297083110bc779934a253afba</sys_id>
+            <sys_created_on>2023-07-28 12:50:58</sys_created_on>
+            <sys_id>b76ba1b92f98b11010dfa1fef699b627</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:16:43</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:50:58</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">2d0d08b297083110bc779934a253afb9</list_id>
+            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">eb6bed792f98b11010dfa1fef699b622</list_id>
             <order_by/>
             <position>2</position>
+            <related_list>x_788877_fob_envelope.admission</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-28 12:50:58</sys_created_on>
+            <sys_id>bb6ba1b92f98b11010dfa1fef699b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-28 12:50:58</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Admissions - Default view" name="x_788877_fob_admissions" related_list="NULL" sys_domain="global" view="Default view">eb6bed792f98b11010dfa1fef699b622</list_id>
+            <order_by/>
+            <position>3</position>
             <related_list>task_sla.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:16:43</sys_created_on>
-            <sys_id>210d08b297083110bc779934a253afbb</sys_id>
+            <sys_created_on>2023-07-28 12:50:58</sys_created_on>
+            <sys_id>bf6ba1b92f98b11010dfa1fef699b627</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:16:43</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:50:58</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Admissions - Default view</calculated_name>
@@ -51,10 +65,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:16:43</sys_created_on>
+            <sys_created_on>2023-07-28 12:50:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2d0d08b297083110bc779934a253afb9</sys_id>
+            <sys_id>eb6bed792f98b11010dfa1fef699b622</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Admissions - Default view</sys_name>
             <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
@@ -62,7 +76,7 @@
             <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
             <sys_update_name>sys_ui_related_x_788877_fob_admissions_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:16:43</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:50:58</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

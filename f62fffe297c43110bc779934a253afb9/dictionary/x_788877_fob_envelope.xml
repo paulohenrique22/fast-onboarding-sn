@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b94a6d392f98b11010dfa1fef699b69e" extends="task" label="Envelope" max_length="40" name="x_788877_fob_envelope" type="collection">
+        <element label="Admission" max_length="32" name="admission" reference="x_788877_fob_admissions" type="reference"/>
+        <element label="Envelope ID" max_length="40" name="envelope_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Envelope Status" max_length="40" name="envelope_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sent" sequence="0" value="sent"/>
+                <element inactive_on_update="false" label="Finished" sequence="1" value="finished"/>
+            </choice>
+        </element>
+        <element label="Signature Date" max_length="40" name="signature_date" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="subscription_kit" table="x_788877_fob_admissions">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="signature_date" table="x_788877_fob_envelope">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Subscription Kit</column_label>
+        <column_label>Signature Date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,41 +26,39 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>subscription_kit</element>
+        <element>signature_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">glide_date_time</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_788877_fob_admissions</name>
+        <max_length>40</max_length>
+        <name>x_788877_fob_envelope</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_788877_fob_kits">x_788877_fob_kits</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>kit_type=signature^EQ</reference_qual>
-        <reference_qual_condition table="x_788877_fob_kits">kit_type=signature^EQ<item display_value="Signature" endquery="false" field="kit_type" goto="false" newquery="false" operator="=" or="false" value="signature"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-18 22:09:26</sys_created_on>
-        <sys_name>Subscription Kit</sys_name>
+        <sys_created_on>2023-07-28 12:49:06</sys_created_on>
+        <sys_name>Signature Date</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
-        <sys_update_name>sys_dictionary_x_788877_fob_admissions_subscription_kit</sys_update_name>
+        <sys_update_name>sys_dictionary_x_788877_fob_envelope_signature_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-28 12:34:48</sys_updated_on>
+        <sys_updated_on>2023-07-28 12:49:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

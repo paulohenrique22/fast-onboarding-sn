@@ -3,6 +3,7 @@
         <element label="Contact Phone" max_length="40" name="contact_phone" type="string"/>
         <element label="CPF" max_length="40" name="cpf" type="string"/>
         <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Document Kit" max_length="32" name="document_kit" reference="x_788877_fob_kits" reference_qual="kit_type=document^EQ" reference_qual_condition="kit_type=document^EQ" type="reference"/>
         <element label="Father Name" max_length="40" name="father_name" type="string"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="choice">
@@ -23,8 +24,9 @@
                 <element inactive_on_update="false" label="Information Validation" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Job Information" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Sign documents" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Finished" sequence="5" value="6"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Subscription Kit" max_length="32" name="subscription_kit" reference="x_788877_fob_kits" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Subscription Kit" max_length="32" name="subscription_kit" reference="x_788877_fob_kits" reference_qual="kit_type=signature^EQ" reference_qual_condition="kit_type=signature^EQ" type="reference"/>
     </element>
 </database>

@@ -110,5 +110,24 @@
             <sys_updated_on>2023-07-18 22:28:49</sys_updated_on>
             <value>5</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>situation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finished</label>
+            <language>en</language>
+            <name>x_788877_fob_admissions</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-28 13:14:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-28 13:14:05</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

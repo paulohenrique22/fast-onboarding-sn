@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6d14ad312f98b11010dfa1fef699b6e9" label="Kit Document" max_length="40" name="x_788877_fob_m2m_kit_documents" type="collection">
+        <element attributes="encode_utf8=false" label="Document" max_length="32" name="document" reference="x_788877_fob_document_type" type="reference"/>
+        <element attributes="encode_utf8=false" label="Kit" max_length="32" name="kit" reference="x_788877_fob_kits" type="reference"/>
+        <index name="index">
+            <element name="document"/>
+        </index>
+        <index name="index2">
+            <element name="kit"/>
+        </index>
+    </element>
+</database>

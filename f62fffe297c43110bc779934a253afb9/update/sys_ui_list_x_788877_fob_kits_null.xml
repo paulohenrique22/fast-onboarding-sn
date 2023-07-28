@@ -3,47 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>title</element>
-            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4bb6583e97083110bc779934a253afce</list_id>
+            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1325fd2f58b11010dfa1fef699b658</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:59:08</sys_created_on>
-            <sys_id>c3b6583e97083110bc779934a253afcf</sys_id>
+            <sys_created_on>2023-07-28 12:14:38</sys_created_on>
+            <sys_id>631325fd2f58b11010dfa1fef699b65a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:59:08</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:14:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4bb6583e97083110bc779934a253afce</list_id>
+            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1325fd2f58b11010dfa1fef699b658</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:59:08</sys_created_on>
-            <sys_id>c7b6583e97083110bc779934a253afcf</sys_id>
+            <sys_created_on>2023-07-28 12:14:38</sys_created_on>
+            <sys_id>e71325fd2f58b11010dfa1fef699b65a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:59:08</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:14:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>active</element>
-            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4bb6583e97083110bc779934a253afce</list_id>
+            <element>kit_type</element>
+            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1325fd2f58b11010dfa1fef699b658</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:59:08</sys_created_on>
-            <sys_id>cbb6583e97083110bc779934a253afcf</sys_id>
+            <sys_created_on>2023-07-28 12:14:38</sys_created_on>
+            <sys_id>6b1325fd2f58b11010dfa1fef699b65a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:59:08</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:14:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_788877_fob_kits" element="NULL" name="x_788877_fob_kits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ab1325fd2f58b11010dfa1fef699b658</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-28 12:14:38</sys_created_on>
+            <sys_id>eb1325fd2f58b11010dfa1fef699b65a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-28 12:14:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -57,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-18 22:59:08</sys_created_on>
+            <sys_created_on>2023-07-28 12:14:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4bb6583e97083110bc779934a253afce</sys_id>
+            <sys_id>ab1325fd2f58b11010dfa1fef699b658</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_788877_fob_kits</sys_name>
             <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
@@ -68,7 +83,7 @@
             <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
             <sys_update_name>sys_ui_list_x_788877_fob_kits_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-18 22:59:08</sys_updated_on>
+            <sys_updated_on>2023-07-28 12:14:38</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
