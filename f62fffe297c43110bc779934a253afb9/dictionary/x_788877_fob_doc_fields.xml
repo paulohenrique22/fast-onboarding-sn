@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="35533d6d2fd4711010dfa1fef699b6a1" label="Document Fields" max_length="40" name="x_788877_fob_doc_fields" type="collection">
+        <element label="Document" max_length="32" name="document" reference="x_788877_fob_document_type" type="reference"/>
+        <element label="Field Label" max_length="40" name="field_label" type="string"/>
+        <element attributes="allow_null=true,allow_references=false" dependent="target_table" dependent_on_field="target_table" label="Field Name" max_length="80" name="field_name" type="field_name" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Fixed Value" max_length="40" name="fixed_value" type="string"/>
+        <element default="x_788877_fob_admissions" label="Target Table" max_length="80" name="target_table" read_only="true" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="dynamic" label="Value Type" max_length="40" name="value_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dynamic Value" sequence="0" value="dynamic"/>
+                <element inactive_on_update="false" label="Fixed Value" sequence="1" value="fixed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="document"/>
+        </index>
+    </element>
+</database>

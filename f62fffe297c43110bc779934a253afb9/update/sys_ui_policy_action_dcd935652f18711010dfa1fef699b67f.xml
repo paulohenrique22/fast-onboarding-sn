@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>field_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 19:15:46</sys_created_on>
+        <sys_id>dcd935652f18711010dfa1fef699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>field_name</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dcd935652f18711010dfa1fef699b67f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 19:15:46</sys_updated_on>
+        <table>x_788877_fob_doc_fields</table>
+        <ui_policy display_value="When it is Dynamic value">9ca971652f18711010dfa1fef699b611</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

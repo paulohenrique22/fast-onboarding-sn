@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="active" table="x_788877_fob_kits">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-18 22:58:18</sys_created_on>
-        <sys_id>e2861c3e97083110bc779934a253afe4</sys_id>
         <sys_name>Active</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>

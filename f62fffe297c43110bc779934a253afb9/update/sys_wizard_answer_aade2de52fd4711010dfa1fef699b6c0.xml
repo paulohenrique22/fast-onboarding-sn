@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Admissions</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Admissions</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">c4598f86c51021108c8b506e733c4c9f</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 18:27:26</sys_created_on>
+        <sys_id>aade2de52fd4711010dfa1fef699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admissions</sys_name>
+        <sys_package display_value="Admissão Digital" source="x_788878_admiss_o">235550da2fa4111067a055272799b60c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_wizard_answer_aade2de52fd4711010dfa1fef699b6c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 18:27:26</sys_updated_on>
+        <table/>
+        <target_url>x_788877_fob_admissions.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

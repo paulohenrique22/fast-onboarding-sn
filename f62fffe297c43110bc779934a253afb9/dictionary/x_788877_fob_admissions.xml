@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8dcf736697c43110bc779934a253affa" extends="task" label="Admissions" max_length="40" name="x_788877_fob_admissions" type="collection">
+        <element label="Contact Phone" max_length="40" name="contact_phone" type="string"/>
+        <element label="CPF" max_length="40" name="cpf" type="string"/>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Father Name" max_length="40" name="father_name" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="M"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="F"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="O"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Mother Name" max_length="40" name="mother_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Personal E-mail" max_length="40" name="personal_email" type="string"/>
+        <element label="RG" max_length="40" name="rg" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Situation" max_length="40" name="situation" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Initial informations" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Personal information" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Information Validation" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Job Information" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Sign documents" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Subscription Kit" max_length="32" name="subscription_kit" reference="x_788877_fob_kits" type="reference"/>
+    </element>
+</database>

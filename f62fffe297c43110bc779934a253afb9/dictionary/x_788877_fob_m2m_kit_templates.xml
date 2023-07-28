@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b37c0b697c43110bc779934a253aff1" label="Kit Templates" max_length="40" name="x_788877_fob_m2m_kit_templates" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Kit" max_length="32" name="kit" reference="x_788877_fob_kits" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Templates" max_length="32" name="templates" reference="x_788877_fob_templates" type="reference"/>
+        <index name="index">
+            <element name="kit"/>
+        </index>
+        <index name="index2">
+            <element name="templates"/>
+        </index>
+    </element>
+</database>

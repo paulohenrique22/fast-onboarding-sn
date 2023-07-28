@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="19a4cc7a97c43110bc779934a253af5d" extends="task" label="Documents" max_length="40" name="x_788877_fob_documents" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Admission" max_length="32" name="admission" reference="x_788877_fob_admissions" type="reference"/>
+        <element label="Document Type" max_length="32" name="document_type" reference="x_788877_fob_document_type" type="reference"/>
+        <element choice="3" default="open" label="Revison" max_length="40" name="revison" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Accepted" sequence="2" value="accepted"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+    </element>
+</database>
