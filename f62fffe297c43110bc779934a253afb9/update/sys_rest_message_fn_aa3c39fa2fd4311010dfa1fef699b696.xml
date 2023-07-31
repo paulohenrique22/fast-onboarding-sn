@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+	"login": "${login}",&#13;
+	"password": "${password}",&#13;
+	"userEmail": "${email}"&#13;
+}</content>
+        <function_name>Auth</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>sign-dev [ Auth ]</qualified_name>
+        <rest_endpoint>https://sign-dev.iv2.com.br/api/tokenmanagement/external/gaintaccess</rest_endpoint>
+        <rest_message display_value="sign-dev">221cf1be2fd4311010dfa1fef699b62f</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-31 16:38:16</sys_created_on>
+        <sys_id>aa3c39fa2fd4311010dfa1fef699b696</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Auth</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_rest_message_fn_aa3c39fa2fd4311010dfa1fef699b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-31 16:51:14</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

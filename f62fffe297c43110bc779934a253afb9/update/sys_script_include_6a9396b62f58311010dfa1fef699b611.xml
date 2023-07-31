@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_788877_fob.EnvelopeUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EnvelopeUtil</name>
+        <script><![CDATA[var EnvelopeUtil = Class.create();
+EnvelopeUtil.prototype = {
+    initialize: function() {},
+    auth: function() {
+        try {
+
+            var r = new sn_ws.RESTMessageV2('x_788877_fob.sign-dev', 'Auth');
+            r.setStringParameterNoEscape('password', 'Jq9Yhj6B');
+            r.setStringParameterNoEscape('login', '@SignSn23');
+            r.setStringParameterNoEscape('email', 'paulo.valentim@iv2.com.br');
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+
+            var access_token = JSON.parse(responseBody).data.access_token;
+
+            return access_token;
+
+        } catch (ex) {
+            var message = ex.message;
+        }
+    },
+    createEnvelope: function(payload) {
+        try {
+            var body = payload;
+			var access_token = this.auth();
+
+            var r = new sn_ws.RESTMessageV2('x_788877_fob.sign-dev', 'Create Envelope');
+            r.setStringParameterNoEscape('content', body);
+            r.setStringParameterNoEscape('access_token', access_token);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+
+        } catch (ex) {
+            var message = ex.message;
+        }
+
+    },
+    getEnvelopeByID: function() {
+
+    },
+    type: 'EnvelopeUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-31 18:24:55</sys_created_on>
+        <sys_id>6a9396b62f58311010dfa1fef699b611</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>EnvelopeUtil</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_script_include_6a9396b62f58311010dfa1fef699b611</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-31 19:23:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

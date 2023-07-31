@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_788877_fob_admissions</name>
         <next_element/>
@@ -39,8 +39,9 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>kit_type=signature^EQ</reference_qual>
-        <reference_qual_condition table="x_788877_fob_kits">kit_type=signature^EQ<item display_value="Signature" endquery="false" field="kit_type" goto="false" newquery="false" operator="=" or="false" value="signature"/>
+        <reference_qual>kit_type=signature^active=true^EQ</reference_qual>
+        <reference_qual_condition table="x_788877_fob_kits">kit_type=signature^active=true^EQ<item display_value="Signature" endquery="false" field="kit_type" goto="false" newquery="false" operator="=" or="false" value="signature"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -55,7 +56,7 @@
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_dictionary_x_788877_fob_admissions_subscription_kit</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-28 12:34:48</sys_updated_on>
+        <sys_updated_on>2023-07-28 19:10:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
