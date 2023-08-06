@@ -13,8 +13,17 @@
                 <element inactive_on_update="false" label="Other" sequence="2" value="O"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Home Number" max_length="40" name="home_number" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Marital status" max_length="40" name="marital_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Single" sequence="0" value="single"/>
+                <element inactive_on_update="false" label="Married" sequence="1" value="married"/>
+                <element inactive_on_update="false" label="Divorced" sequence="2" value="divorced"/>
+            </choice>
+        </element>
         <element label="Mother Name" max_length="40" name="mother_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Neighborhood" max_length="40" name="neighborhood" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Personal E-mail" max_length="40" name="personal_email" type="string"/>
         <element label="RG" max_length="40" name="rg" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Situation" max_length="40" name="situation" type="string">
@@ -27,6 +36,10 @@
                 <element inactive_on_update="false" label="Finished" sequence="5" value="6"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="street" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Subscription Kit" mandatory="true" max_length="32" name="subscription_kit" reference="x_788877_fob_kits" reference_qual="kit_type=signature^active=true^EQ" reference_qual_condition="kit_type=signature^active=true^EQ" type="reference"/>
+        <element label="Terms of Use" max_length="40" name="terms_of_use" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="UF" max_length="40" name="uf" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip code" max_length="40" name="zip_code" type="string"/>
     </element>
 </database>

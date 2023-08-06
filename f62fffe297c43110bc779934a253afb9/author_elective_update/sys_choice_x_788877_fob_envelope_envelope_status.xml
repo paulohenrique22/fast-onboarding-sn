@@ -20,18 +20,37 @@
             <element>envelope_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Sent</label>
+            <label>Send-Ready</label>
             <language>en</language>
             <name>x_788877_fob_envelope</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-04 23:17:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-04 23:17:15</sys_updated_on>
+            <value>send_ready</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>envelope_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sent</label>
+            <language>en</language>
+            <name>x_788877_fob_envelope</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-28 13:01:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 13:07:56</sys_updated_on>
+            <sys_updated_on>2023-08-04 23:17:15</sys_updated_on>
             <value>sent</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,16 +61,35 @@
             <label>Finished</label>
             <language>en</language>
             <name>x_788877_fob_envelope</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-28 13:01:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-04 23:17:15</sys_updated_on>
+            <value>finished</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>envelope_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled</label>
+            <language>en</language>
+            <name>x_788877_fob_envelope</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-04 23:17:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 13:01:00</sys_updated_on>
-            <value>finished</value>
+            <sys_updated_on>2023-08-04 23:17:15</sys_updated_on>
+            <value>canceled</value>
         </sys_choice>
     </sys_choice>
 </record_update>

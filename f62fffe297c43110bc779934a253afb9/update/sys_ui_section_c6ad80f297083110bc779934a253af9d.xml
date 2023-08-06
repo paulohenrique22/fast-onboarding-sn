@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>f038a5b52f98b11010dfa1fef699b6ab</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>087944b82fe4711010dfa1fef699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">487d4c7297083110bc779934a253af4b</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>b838a5b52f98b11010dfa1fef699b6ab</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>447944b82fe4711010dfa1fef699b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>3c38a5b52f98b11010dfa1fef699b6ab</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>487944b82fe4711010dfa1fef699b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>subscription_kit</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>bc38a5b52f98b11010dfa1fef699b6ab</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>4c7944b82fe4711010dfa1fef699b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>document_kit</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>3038a5b52f98b11010dfa1fef699b6ac</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>407944b82fe4711010dfa1fef699b677</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>b038a5b52f98b11010dfa1fef699b6ac</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>447944b82fe4711010dfa1fef699b677</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,13 +88,27 @@
             <element>situation</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-28 12:36:51</sys_created_on>
-            <sys_id>3438a5b52f98b11010dfa1fef699b6ac</sys_id>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>487944b82fe4711010dfa1fef699b677</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-28 12:36:51</sys_updated_on>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>terms_of_use</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 13:24:35</sys_created_on>
+            <sys_id>4c7944b82fe4711010dfa1fef699b677</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="Default view">c6ad80f297083110bc779934a253af9d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 13:24:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function ($scope, spUtil) {
+  /* widget controller */
+  var c = this;
+  c.step = 1;
+  c.stepsData = {
+    step1: {
+
+    },
+    step2: {
+
+    },
+    step3: {
+
+    },
+    step4: {
+
+    }
+  };
+
+  c.nextStep = function (form) {
+    var currentStepData = c.stepsData['step' + c.step];
+    var isValid = true;
+
+    event.preventDefault();
+
+    for (var field in currentStepData) {
+      if (currentStepData.hasOwnProperty(field)) {
+        if (form[field].$invalid) {
+          isValid = false;
+          form[field].$setTouched();
+        }
+      }
+    }
+
+
+    if (c.step == 2) {
+      $scope.saveData();
+    }
+
+    if (isValid) {
+      c.step++;
+    }
+  };
+
+  c.prevStep = function () {
+    c.step--;
+  };
+
+  c.submitForm = function () {
+    // Aqui você pode lidar com a lógica de envio do formulário
+    console.log(c.stepsData);
+  };
+
+
+  $scope.saveData = function () {
+    // alert(JSON.stringify(c.stepsData));
+
+    c.data.action = "saveData";
+    c.data.bodyData = JSON.stringify(c.stepsData);
+
+    c.server.update().then(function () {
+      c.data.action = undefined;
+      c.data.bodyData = undefined;
+    })
+  }
+
+
+  $scope.getValuesFromProcess = function () {
+
+    c.data.action = 'getValuesFromProcess';
+
+    c.server.get({
+      action: "getValuesFromProcess"
+    }).then(function (response) {
+
+      c.data.action = undefined;
+
+      if (response.data.payload.step2.date_of_birth) {
+        response.data.payload.step2.date_of_birth = new Date(response.data.payload.step2.date_of_birth + 'T00:00:00')
+      }
+
+			$scope.template = response.data.payload.template
+      c.stepsData = response.data.payload;
+
+
+
+
+      console.log(c);
+
+    });
+
+
+
+
+
+
+  }
+
+
+  $scope.getValuesFromProcess();
+
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>$blue: #bcc8cd;
+
+.steps {
+  font: .75em sans-serif;
+  list-style: none;
+}
+
+.steps.bc2x {
+  font-size: 1em;
+}
+
+.steps.bc3x {
+  font-size: 1.25em;
+}
+
+.steps p {
+  margin: 0;
+}
+
+.steps li {
+  display: inline-block;
+  margin-bottom: .2em;
+}
+
+.steps li a {
+  background-color: $blue;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  max-height: 2em;
+  padding: .5em 1em .5em 1.5em;
+  position: relative;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.steps li a:before {
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid transparent;
+  border-left: 1em solid #fff;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1.25em;
+  z-index: 1;
+}
+
+.steps li a:after {
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid transparent;
+  border-left: 1em solid $blue;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1em;
+  transition: .25s;
+  z-index: 1;
+}
+
+/* .steps li a:hover {
+  background-color: #0098d9;
+}
+
+.steps li a:hover:after {
+  border-left-color: #0098d9;
+} */
+
+/* .steps li:last-child a {
+  background-color: #0098d9;
+  pointer-events: none;
+}
+
+.steps li:last-child a:after {
+  border-left-color: #0098d9;
+} */
+
+.steps li.active a {
+  background-color: #7274bd;
+  pointer-events: none;
+}
+
+.steps li.active a:after {
+  border-left-color: #7274bd;
+}
+
+
+.required_field {
+	color:red;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>onboarding_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Onboarding Form</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function () {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+  var procId = 'aa886ab92f9cb11010dfa1fef699b645' /* $sp.getParameter('proc') */;
+
+
+  function getValuesFromProcess() {
+
+    var gr = new GlideRecord('x_788877_fob_admissions');
+    var process_id = procId;
+
+    gr.addQuery('sys_id', process_id);
+    gr.query();
+
+    var processData = {
+      step1: {
+      },
+      step2: {},
+      step3: {},
+      step4: {}
+    };
+
+    if (gr.next()) {
+
+      processData.step2.first_name = gr.getValue('first_name');
+      processData.step2.last_name = gr.getValue('last_name');
+      processData.step2.gender = gr.getValue('gender');
+      processData.step2.date_of_birth = gr.getValue('date_of_birth');
+      processData.step2.rg = gr.getValue('rg');
+      processData.step2.marital_status = gr.getValue('marital_status');
+      processData.step2.personal_email = gr.getValue('personal_email')
+
+      processData.step2.mother_name = gr.getValue('mother_name');
+      processData.step2.cpf = gr.getValue('cpf');
+      processData.step2.zip_code = gr.getValue('zip_code');
+      processData.step2.father_name = gr.getValue('father_name');
+      processData.step2.neighborhood = gr.getValue('neighborhood');
+      processData.step2.street = gr.getValue('street');
+      processData.step2.uf = gr.getValue('uf');
+      processData.step2.home_number = gr.getValue('home_number');
+
+
+
+      var template = new GlideRecord('x_788877_fob_templates')
+
+      if (template.get('ec88c9b82fe8711010dfa1fef699b6fe')) {
+        processData.template = template.getValue('template');
+      }
+
+      if (gr.getValue('terms_of_use') == 1) {
+        processData.step1.terms_of_use = true
+      } else {
+        processData.step1.terms_of_use = false
+      }
+
+      // gs.addInfoMessage(JSON.stringify(processData));
+
+      data.payload = processData;
+    }
+
+  }
+
+
+
+  function saveData() {
+    gs.addInfoMessage(input.bodyData)
+
+
+    try {
+      var info = JSON.parse(input.bodyData);
+      var process_id = procId;
+
+      var gr = new GlideRecord('x_788877_fob_admissions');
+      gr.addQuery('sys_id', process_id);
+      gr.query();
+
+      if (gr.next()) {
+
+
+        gr.gender = info.step2.gender
+        gr.date_of_birth = info.step2.date_of_birth.split('T')[0];
+        gr.mother_name = info.step2.mother_name
+        gr.last_name = info.step2.last_name
+        gr.home_number = info.step2.home_number
+        gr.terms_of_use = info.step1.terms_of_use === true ? true : false
+        gr.zip_code = info.step2.zip_code
+        gr.uf = info.step2.uf
+        gr.rg = info.step2.rg
+        gr.father_name = info.step2.father_name
+        gr.street = info.step2.street
+        gr.cpf = info.step2.cpf
+        gr.neighborhood = info.step2.neighborhood
+        gr.first_name = info.step2.first_name
+        gr.personal_email = info.step2.personal_email
+				gr.marital_status = info.step2.marital_status
+
+
+        gr.update();
+
+      }
+    } catch (error) {
+      gs.addErrorMessage(error)
+    }
+
+  }
+
+
+
+  if (input) {
+
+    if (input.action == 'getValuesFromProcess') {
+      getValuesFromProcess();
+    } else if (input.action == 'saveData') {
+      saveData();
+    }
+  }
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-05 15:19:25</sys_created_on>
+        <sys_id>3af957542fa0311010dfa1fef699b686</sys_id>
+        <sys_mod_count>146</sys_mod_count>
+        <sys_name>Onboarding Form</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sp_widget_3af957542fa0311010dfa1fef699b686</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 19:03:09</sys_updated_on>
+        <template><![CDATA[<div>
+  
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <ul class="steps bc2x">
+        <li ng-class="{active: c.step == 1}"><a>Termo</a></li>
+        <li ng-class="{active: c.step == 2}"><a>Informações Pessoais</a></li>
+        <li ng-class="{active: c.step == 3}"><a>Documentos</a></li>
+        <li ng-class="{active: c.step == 4}"><a>Finalizar</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="panel panel-default">
+    <!-- <div class="panel-heading">
+        <h1 class="panel-title">Success</h1>
+      </div> -->
+    <div class="panel-body">
+      <form ng-submit="c.submitForm()" novalidate name="form">
+        <div ng-show="c.step === 1">
+
+          <h3>Termo de Aceite</h3>
+          <div id="template" ng-bind-html="template" style="max-height:400px;overflow-x:auto;margin-bottom: 14px;">
+            
+          </div>
+            <p>
+              <input type="checkbox" id="terms_of_use" name="terms_of_use" ng-model="c.stepsData.step1.terms_of_use" required />
+              <label for="terms_of_use">Agree</label>
+              <br>
+              <small ng-show="form.terms_of_use.$error.required && form.terms_of_use.$touched" class="text-danger">
+You must agree to the terms of use</small>
+            </p>
+
+
+          <button class="btn btn-primary" ng-click="c.nextStep(form)" ng-disabled="!c.stepsData.step1.terms_of_use">Next</button>
+        </div>
+        <div ng-show="c.step === 2">
+          <h3>Informações Pessoais</h3>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>First Name <span class="required_field">*</span></label>
+                <input type="text" class="form-control" name="first_name" ng-model="c.stepsData.step2.first_name"
+                  required/>
+                <small ng-show="form.first_name.$error.required && form.first_name.$touched" class="text-danger">First
+                  Name is required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Last Name <span class="required_field">*</span></label>
+                <input type="text" class="form-control" name="last_name" ng-model="c.stepsData.step2.last_name" required>
+                <small ng-show="form.last_name.$error.required && form.last_name.$touched" class="text-danger">Last Name
+                  is required.</small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Gender <span class="required_field">*</span></label>
+                <select class="form-control" name="gender" ng-model="c.stepsData.step2.gender" required>
+                  <option value="">-- None --</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                  <option value="O">Other</option>
+                </select>
+                <small ng-show="form.gender.$error.required && form.gender.$touched" class="text-danger">Gender is
+                  required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Email <span class="required_field">*</span></label>
+                <input type="email" class="form-control" name="personal_email" ng-model="c.stepsData.step2.personal_email" required/>
+                <small ng-show="form.personal_email.$error.required && form.personal_email.$touched" class="text-danger">Email is
+                  required.</small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Birth Date <span class="required_field">*</span></label>
+                <input type="date" class="form-control" name="date_of_birth" ng-model="c.stepsData.step2.date_of_birth"
+                  required/>
+                <small ng-show="form.date_of_birth.$error.required && form.date_of_birth.$touched" class="text-danger">Birth
+                  Date is required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Marital Status <span class="required_field">*</span></label>
+                <select class="form-control" name="marital_status" ng-model="c.stepsData.step2.marital_status"
+                  required>
+                  <option value="">-- None --</option>
+                  <option value="single">Single</option>
+                  <option value="married">Married</option>
+                  <option value="divorced">Divorced</option>
+                </select>
+                <small ng-show="form.marital_status.$error.required && form.marital_status.$touched" class="text-danger">
+                  Marital Status is required.</small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>RG <span class="required_field">*</span></label>
+                <input type="text" class="form-control" name="rg" ng-model="c.stepsData.step2.rg"
+                  required/>
+                <small ng-show="form.rg.$error.required && form.rg.$touched" class="text-danger">First
+                  RG is required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>CPF <span class="required_field">*</span></label>
+                <input type="text" class="form-control" name="cpf" ng-model="c.stepsData.step2.cpf"
+                  required/>
+                <small ng-show="form.cpf.$error.required && form.cpf.$touched" class="text-danger">
+                  CPF is required.</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Mother Name <span class="required_field">*</span></label>
+                <input type="text" class="form-control" name="mother_name" ng-model="c.stepsData.step2.mother_name"
+                  required/>
+                <small ng-show="form.mother_name.$error.required && form.mother_name.$touched" class="text-danger">
+                  Mother Name is required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Father Name <span class="required_field">*</span></label>
+                <input type="text" class="form-control" name="father_name" ng-model="c.stepsData.step2.father_name"
+                  required/>
+                <small ng-show="form.father_name.$error.required && form.father_name.$touched" class="text-danger">
+                  Father Name is required.</small>
+              </div>
+            </div>
+          </div>
+          <h3>Endereço</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Zip Code</label>
+                <input type="text" class="form-control" name="zip_code" ng-model="c.stepsData.step2.zip_code"/>
+                <small ng-show="form.zip_code.$error.required && form.zip_code.$touched" class="text-danger">
+                  Zip Code is required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Street</label>
+                <input type="text" class="form-control" name="street" ng-model="c.stepsData.step2.street"/>
+                <small ng-show="form.street.$error.required && form.street.$touched" class="text-danger">
+                  Street is required.</small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Neighborhood:</label>
+                <input type="text" class="form-control" name="neighborhood" ng-model="c.stepsData.step2.neighborhood"/>
+                <small ng-show="form.neighborhood.$error.required && form.neighborhood.$touched" class="text-danger">
+                  Neighborhood is required.</small>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Home Number:</label>
+                <input type="text" class="form-control" name="home_number" ng-model="c.stepsData.step2.home_number">
+                <small ng-show="form.home_number.$error.required && form.home_number.$touched" class="text-danger">
+                  Home Number is required.</small>
+              </div>
+            </div>
+       
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>UF:</label>
+                <input type="text" class="form-control" name="uf" ng-model="c.stepsData.step2.uf"/>
+                <small ng-show="form.uf.$error.required && form.uf.$touched" class="text-danger">
+                  UF is required.</small>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="btn btn-default" ng-click="c.prevStep()">Previous</button>
+          <button class="btn btn-primary" ng-click="c.nextStep(form)">Next</button>
+        </div>
+        <div ng-show="c.step === 3">
+          <h3>Documentos</h3>
+          <div class="form-group">
+            <label>Upload File:</label>
+            <label class="custom-file-upload">
+              Choose File
+              <input type="file" name="fileUpload" ng-model="c.stepsData.step4.file" required/>
+            </label>
+            <small ng-show="form.fileUpload.$error.required && form.fileUpload.$touched" class="text-danger">File
+              upload is required.</small>
+          </div>
+          <button class="btn btn-default" ng-click="c.prevStep()">Previous</button>
+          <button class="btn btn-primary" ng-click="c.nextStep(form)">Next</button>
+        </div>
+        <div ng-show="c.step === 4">
+          <h3>Finalizar</h3>
+
+          <button class="btn btn-default" ng-click="c.prevStep()">Previous</button>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

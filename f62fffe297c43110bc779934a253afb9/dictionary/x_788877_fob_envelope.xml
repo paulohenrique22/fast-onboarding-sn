@@ -4,10 +4,12 @@
         <element attributes="edge_encryption_enabled=true" label="Envelope Hash" max_length="40" name="envelope_hash" type="string"/>
         <element label="Envelope ID" max_length="40" name="envelope_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Envelope Name" max_length="40" name="envelope_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Envelope Status" max_length="40" name="envelope_status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="send_ready" label="Envelope Status" max_length="40" name="envelope_status" type="string">
             <choice>
-                <element inactive_on_update="false" label="Sent" sequence="0" value="sent"/>
-                <element inactive_on_update="false" label="Finished" sequence="1" value="finished"/>
+                <element inactive_on_update="false" label="Send-Ready" sequence="0" value="send_ready"/>
+                <element inactive_on_update="false" label="Sent" sequence="1" value="sent"/>
+                <element inactive_on_update="false" label="Finished" sequence="2" value="finished"/>
+                <element inactive_on_update="false" label="Canceled" sequence="3" value="canceled"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Envelope URL" max_length="1024" name="envelope_url" type="url"/>
