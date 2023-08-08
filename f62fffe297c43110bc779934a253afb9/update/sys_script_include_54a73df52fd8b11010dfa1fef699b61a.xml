@@ -98,19 +98,46 @@ GRUtil.prototype = {
 
         return ids;
     },
+    generateRandomHash: function(length) {
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var hash = '';
+
+        for (var i = 0; i < length; i++) {
+            var randomIndex = Math.floor(Math.random() * characters.length);
+            hash += characters[randomIndex];
+        }
+
+        return hash;
+    },
+    createFileB64OnRecord: function(tbName, RecordId, FileName, contentType, base64) {
+
+        var attachment = new GlideSysAttachment();
+
+        var rec = new GlideRecord(tbName);
+        var SysID = RecordId;
+        rec.get(SysID);
+		
+        var file_name = FileName;
+        var content_type = contentType;
+        var base64Encodedcontent = base64;
+
+        var agr = attachment.writeBase64(rec, file_name, contentType, base64Encodedcontent);
+
+        return agr;
+    },
     type: 'GRUtil'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-28 13:44:52</sys_created_on>
         <sys_id>54a73df52fd8b11010dfa1fef699b61a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>GRUtil</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_script_include_54a73df52fd8b11010dfa1fef699b61a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-31 19:52:30</sys_updated_on>
+        <sys_updated_on>2023-08-08 14:21:05</sys_updated_on>
     </sys_script_include>
 </record_update>

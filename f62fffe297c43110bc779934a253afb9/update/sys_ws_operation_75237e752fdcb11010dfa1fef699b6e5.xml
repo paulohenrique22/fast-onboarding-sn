@@ -13,14 +13,77 @@
     var body = request.body.data;
 
     switch (body.EnvelopeStatus) {
-		// cancelado pelo usuário.
+
         case 0:
+            // cancelado pelo usuário.
+            var gr = new GlideRecord('x_788877_fob_envelope');
+            gr.addQuery('envelope_id', body.Id);
+            gr.query();
+
+            if (gr.next()) {
+                gr.envelope_status = "canceled";
+                if (body.RejectionMessage) {
+
+                    gr.comments = 'O Envelope foi rejeitado \n <strong>Motivo:</strong> \n' + body.RejectionMessage + '\n' + JSON.stringify(request.body.data);
+                }
+                gr.update();
+            }
+
             break;
-		// realizada a acao pelo usuario.
+
         case 1:
+            // realizada a acao pelo usuario.
+            var gr = new GlideRecord('x_788877_fob_envelope');
+            gr.addQuery('envelope_id', body.Id);
+            gr.query();
+
+            if (gr.next()) {
+
+                if (body.Manifest) {
+
+                    var gru = new GRUtil();
+                    var b64 = body.Manifest.Base64;
+                    var content_type = body.Manifest.Content_type;
+                    var envelope_hash = gr.getValue('envelope_name').split('_')[1];
+                    var extension = content_type.split('/')[1];
+
+                    var pdf_name = 'manifesto_' + envelope_hash + '.' + extension
+
+
+                    var attach_id = gru.createFileB64OnRecord(
+                        'x_788877_fob_admissions',
+                        gr.admission.toString(),
+                        pdf_name,
+                        content_type,
+                        b64
+                    );
+                }
+
+
+                gr.comments = 'case 1: \n' + JSON.stringify(request.body.data);
+
+                var timestamps = body.UpdatedAt;
+                var timestamps_without_milisecounds = timestamps.split('.')[0];
+                var date = timestamps_without_milisecounds.replace('T', ' ');
+                gr.signature_date = date;
+				gr.envelope_status = "finished";
+				
+                gr.update();
+            }
+
             break;
-		// realizada a ação pelo usuário e envelope finalizado.
+
         case 2:
+            // realizada a ação pelo usuário e envelope finalizado.
+            var gr = new GlideRecord('x_788877_fob_envelope');
+            gr.addQuery('envelope_id', body.Id);
+            gr.query();
+
+            if (gr.next()) {
+                gr.envelope_status = "finished";
+                gr.comments = 'case 2: \n' + JSON.stringify(request.body.data);
+                gr.update();
+            }
             break;
     }
 
@@ -41,14 +104,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-28 18:05:18</sys_created_on>
         <sys_id>75237e752fdcb11010dfa1fef699b6e5</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>WebHook Sign</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_ws_operation_75237e752fdcb11010dfa1fef699b6e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-31 18:18:33</sys_updated_on>
+        <sys_updated_on>2023-08-08 17:16:50</sys_updated_on>
         <web_service_definition display_value="Fast Onboarding">51a236752fdcb11010dfa1fef699b662</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

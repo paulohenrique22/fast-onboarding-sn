@@ -84,6 +84,10 @@
 
 			$scope.template = response.data.payload.template
       c.stepsData = response.data.payload;
+			
+			if (c.stepsData.step1.terms_of_use == true){
+				c.step = 2;
+			}
 
 
 
@@ -214,7 +218,7 @@
   /* e.g., data.table = $sp.getValue('table'); */
 
   var procId = 'aa886ab92f9cb11010dfa1fef699b645' /* $sp.getParameter('proc') */;
-
+	
 
   function getValuesFromProcess() {
 
@@ -260,7 +264,7 @@
       }
 
       if (gr.getValue('terms_of_use') == 1) {
-        processData.step1.terms_of_use = true
+       processData.step1.terms_of_use = true
       } else {
         processData.step1.terms_of_use = false
       }
@@ -334,14 +338,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-05 15:19:25</sys_created_on>
         <sys_id>3af957542fa0311010dfa1fef699b686</sys_id>
-        <sys_mod_count>146</sys_mod_count>
+        <sys_mod_count>155</sys_mod_count>
         <sys_name>Onboarding Form</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sp_widget_3af957542fa0311010dfa1fef699b686</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-06 19:03:09</sys_updated_on>
+        <sys_updated_on>2023-08-06 19:17:04</sys_updated_on>
         <template><![CDATA[<div>
   
   <div class="panel panel-default">

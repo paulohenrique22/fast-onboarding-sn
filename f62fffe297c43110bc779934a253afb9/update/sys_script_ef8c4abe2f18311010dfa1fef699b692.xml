@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_788877_fob_envelope">envelope_status=sent^EQ<item display_value="Sent" endquery="false" field="envelope_status" goto="false" newquery="false" operator="=" or="false" value="sent"/>
+        <filter_condition table="x_788877_fob_envelope">envelope_status=send_ready^EQ<item display_value="Send-Ready" endquery="false" field="envelope_status" goto="false" newquery="false" operator="=" or="false" value="send_ready"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -29,9 +29,66 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    try {
+        var envUtil = new EnvelopeUtil();
+        var gru = new GRUtil();
+		var evelope_name = "Envelope_"+ gru.generateRandomHash(10);
+        var body = {
+            "EnvelopeName": evelope_name,
+            "IsOrdenable": true,
+            "Documents": [],
+            "EnvelopeGroups": [{
+                "GroupName": "Grupo 1",
+                "GroupOrder": 1,
+                "EnvelopeParticipants": [{
+                    "ParticipantEmail": "paulo.valentim@iv2.com.br",
+                    "ParticipantAction": 1,
+                    "ParticipantOrder": 0
+                }]
+            }]
+        };
 
-	// Add your code here
+        var attachments_ids = gru.getAllAttachmentsIdfromRecord(current.getTableName(), current.getUniqueValue());
+
+        for (var index = 0; index < attachments_ids.length; index++) {
+            var info = gru.getAttachmentInfo(attachments_ids[index]);
+
+            body.Documents.push({
+                "FileName": info.file_name,
+                "FileSize": info.size_bytes,
+                "FileContentType": info.content_type,
+                "FileData": info.base64Data,
+            });
+        }
+
+        var resp = envUtil.createEnvelope(JSON.stringify(body));
+		gs.addInfoMessage(resp);
+		resp = JSON.parse(resp);
+
+		if (resp.status == 201){
+			current.envelope_id = resp.data.envelope_id;
+			current.envelope_name = evelope_name;
+			current.envelope_url = resp.data.envelope_url;
+			current.envelope_hash = resp.data.envelope_hash;
+			current.envelope_status = "sent";
+			current.comments = "Envelope enviado para assinatura";
+			current.update();
+			
+		}
+		
+		
+		
+        // gs.addInfoMessage(JSON.stringify(body));
+
+    } catch (err) {
+        gs.addErrorMessage(err);
+    }
+    // Add your code here
+
+
+
+
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -40,7 +97,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef8c4abe2f18311010dfa1fef699b692</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Send to SIGN</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
@@ -48,7 +105,7 @@
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_script_ef8c4abe2f18311010dfa1fef699b692</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-31 20:21:29</sys_updated_on>
+        <sys_updated_on>2023-08-08 13:12:37</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
