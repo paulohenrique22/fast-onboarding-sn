@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 19:20:47</sys_created_on>
-            <sys_id>141b79a52f18711010dfa1fef699b624</sys_id>
+            <sys_created_on>2023-08-09 18:08:48</sys_created_on>
+            <sys_id>a84728b12f2c311010dfa1fef699b6ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_document_type" sys_domain="global" view="Default view">00343de92fd4711010dfa1fef699b656</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 19:20:47</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:08:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>similarity_control</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 19:20:47</sys_created_on>
-            <sys_id>941b79a52f18711010dfa1fef699b624</sys_id>
+            <sys_created_on>2023-08-09 18:08:48</sys_created_on>
+            <sys_id>ac4728b12f2c311010dfa1fef699b6ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_document_type" sys_domain="global" view="Default view">00343de92fd4711010dfa1fef699b656</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 19:20:47</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:08:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>similarity</element>
+            <element>similarity_percent</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 19:20:47</sys_created_on>
-            <sys_id>181b79a52f18711010dfa1fef699b624</sys_id>
+            <sys_created_on>2023-08-09 18:08:48</sys_created_on>
+            <sys_id>a04768b12f2c311010dfa1fef699b600</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_document_type" sys_domain="global" view="Default view">00343de92fd4711010dfa1fef699b656</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 19:20:47</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:08:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 19:20:47</sys_created_on>
-            <sys_id>981b79a52f18711010dfa1fef699b624</sys_id>
+            <sys_created_on>2023-08-09 18:08:48</sys_created_on>
+            <sys_id>a44768b12f2c311010dfa1fef699b600</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_document_type" sys_domain="global" view="Default view">00343de92fd4711010dfa1fef699b656</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 19:20:47</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:08:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>maximum_size</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 19:20:48</sys_created_on>
-            <sys_id>1c1b79a52f18711010dfa1fef699b624</sys_id>
+            <sys_created_on>2023-08-09 18:08:48</sys_created_on>
+            <sys_id>a84768b12f2c311010dfa1fef699b600</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_document_type" sys_domain="global" view="Default view">00343de92fd4711010dfa1fef699b656</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 19:20:48</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:08:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>ocr</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 19:20:48</sys_created_on>
-            <sys_id>9c1b79a52f18711010dfa1fef699b624</sys_id>
+            <sys_created_on>2023-08-09 18:08:48</sys_created_on>
+            <sys_id>ac4768b12f2c311010dfa1fef699b600</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_document_type" sys_domain="global" view="Default view">00343de92fd4711010dfa1fef699b656</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 19:20:48</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:08:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

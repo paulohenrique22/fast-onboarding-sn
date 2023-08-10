@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Fast Onboarding">660ad4bd2fa8311010dfa1fef699b62f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 17:20:12</sys_created_on>
+        <sys_id>a02cd4712fe8311010dfa1fef699b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Fast Onboarding</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a02cd4712fe8311010dfa1fef699b6a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:20:12</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</application>
+        <file_path/>
+        <instance_id>0aefd4a4dba7511042b321c405961911</instance_id>
+        <instance_name>dev145546</instance_name>
+        <name>sc_cat_item_catalog_a02cd4712fe8311010dfa1fef699b6a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Fast Onboarding">660ad4bd2fa8311010dfa1fef699b62f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-09 17:20:12</sys_created_on><sys_id>a02cd4712fe8311010dfa1fef699b6a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Fast Onboarding</sys_name><sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package><sys_policy/><sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope><sys_update_name>sc_cat_item_catalog_a02cd4712fe8311010dfa1fef699b6a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-09 17:20:12</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1878460799</payload_hash>
+        <record_name>Service Catalog.Fast Onboarding</record_name>
+        <reverted_from/>
+        <source>5eb0613d2f58b11010dfa1fef699b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 17:20:12</sys_created_on>
+        <sys_id>a82cd4712fe8311010dfa1fef699b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189db502d6e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:20:12</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e82cd4710fe83110c34f1b80ddeedaab</update_guid>
+        <update_guid_history>e82cd4710fe83110c34f1b80ddeedaab:-1878460799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Fast Onboarding">924c1c712fe8311010dfa1fef699b623</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 17:20:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2173361400fd42249c594fb2b0a32461</sys_id>
+        <sys_metadata>a02cd4712fe8311010dfa1fef699b6a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Fast Onboarding</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_parent display_value="Fast Onboarding">660ad4bd2fa8311010dfa1fef699b62f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_scope_delete display_value="">0948bd938bb4406a89945d643f888d91</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a02cd4712fe8311010dfa1fef699b6a9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a02cd4712fe8311010dfa1fef699b6a9">a82cd4712fe8311010dfa1fef699b6ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:20:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

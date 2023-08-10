@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="similarity" label="Similarity" language="en" table="x_788877_fob_document_type">
+    <sys_documentation element="similarity_percent" label="Similarity Percent (%)" language="en" table="x_788877_fob_document_type">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>similarity</element>
+            <element>similarity_percent</element>
             <help/>
             <hint/>
-            <label>Similarity</label>
+            <label>Similarity Percent (%)</label>
             <language>en</language>
             <name>x_788877_fob_document_type</name>
-            <plural>Similarities</plural>
+            <plural>Similarity Percent (%)</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-27 18:44:45</sys_created_on>
+            <sys_created_on>2023-08-09 18:06:44</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Similarity</sys_name>
+            <sys_name>Similarity Percent (%)</sys_name>
             <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
-            <sys_update_name>sys_documentation_x_788877_fob_document_type_similarity_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_788877_fob_document_type_similarity_percent_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-27 18:44:45</sys_updated_on>
+            <sys_updated_on>2023-08-09 18:06:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

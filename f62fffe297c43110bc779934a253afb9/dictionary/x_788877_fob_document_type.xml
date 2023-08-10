@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="de01f1e92fd4711010dfa1fef699b601" label="Document Type" max_length="40" name="x_788877_fob_document_type" type="collection">
-        <element label="Maximum Size" max_length="40" name="maximum_size" type="string"/>
+        <element label="Maximum Size (Kbs)" max_length="40" name="maximum_size" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element choice="1" label="OCR" max_length="40" name="ocr" type="choice">
             <choice>
@@ -8,12 +8,12 @@
                 <element inactive_on_update="false" label="Yes" value="yes"/>
             </choice>
         </element>
-        <element label="Similarity" max_length="40" name="similarity" type="string"/>
         <element choice="1" label="Similarity Control" max_length="40" name="similarity_control" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" value="no"/>
                 <element inactive_on_update="false" label="Yes" value="yes"/>
             </choice>
         </element>
+        <element label="Similarity Percent (%)" max_length="40" name="similarity_percent" type="integer"/>
     </element>
 </database>

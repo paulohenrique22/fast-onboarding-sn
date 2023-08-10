@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Fast Onboarding">660ad4bd2fa8311010dfa1fef699b62f</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 17:22:33</sys_created_on>
+        <sys_id>faac94b12fe8311010dfa1fef699b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Fast Onboarding</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sc_cat_item_category_faac94b12fe8311010dfa1fef699b617</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:22:33</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</application>
+        <file_path/>
+        <instance_id>0aefd4a4dba7511042b321c405961911</instance_id>
+        <instance_name>dev145546</instance_name>
+        <name>sc_cat_item_category_faac94b12fe8311010dfa1fef699b617</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Fast Onboarding">660ad4bd2fa8311010dfa1fef699b62f</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-09 17:22:33</sys_created_on><sys_id>faac94b12fe8311010dfa1fef699b617</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Fast Onboarding</sys_name><sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package><sys_policy/><sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope><sys_update_name>sc_cat_item_category_faac94b12fe8311010dfa1fef699b617</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-09 17:22:33</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>383432290</payload_hash>
+        <record_name>Office.Fast Onboarding</record_name>
+        <reverted_from/>
+        <source>5eb0613d2f58b11010dfa1fef699b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 17:22:33</sys_created_on>
+        <sys_id>03ac94b12fe8311010dfa1fef699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189db5254130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:22:33</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>72ac94b166e8311059efbc5888180f1b</update_guid>
+        <update_guid_history>72ac94b166e8311059efbc5888180f1b:383432290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Fast Onboarding">fbbc18b12fe8311010dfa1fef699b621</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 17:22:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>3ebc9158b0784766a8630b1e6842e564</sys_id>
+        <sys_metadata>faac94b12fe8311010dfa1fef699b617</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Fast Onboarding</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_scope_delete display_value="">0948bd938bb4406a89945d643f888d91</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_faac94b12fe8311010dfa1fef699b617</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_faac94b12fe8311010dfa1fef699b617">03ac94b12fe8311010dfa1fef699b61c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 17:22:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
