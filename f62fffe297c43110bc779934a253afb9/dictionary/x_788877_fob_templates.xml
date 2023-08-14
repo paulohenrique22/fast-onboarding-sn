@@ -3,5 +3,11 @@
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="base_start=true,edge_encryption_enabled=true" default="x_788877_fob_admissions" label="Table" max_length="80" name="table" read_only="true" type="table_name"/>
         <element attributes="edge_encryption_enabled=true" dependent="table" dependent_on_field="table" label="Template" max_length="8000" name="template" type="html_script" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="default" label="Template Type" max_length="40" name="template_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Default" sequence="0" value="default"/>
+                <element inactive_on_update="false" label="Term Of Usage" sequence="1" value="term_of_usage"/>
+            </choice>
+        </element>
     </element>
 </database>

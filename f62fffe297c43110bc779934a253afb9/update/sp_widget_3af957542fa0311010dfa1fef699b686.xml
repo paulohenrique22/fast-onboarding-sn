@@ -462,7 +462,7 @@
 
             var template = new GlideRecord('x_788877_fob_templates')
 
-            if (template.get('ec88c9b82fe8711010dfa1fef699b6fe')) {
+            if (template.get(gr.getValue('term'))) { // 'ec88c9b82fe8711010dfa1fef699b6fe'
                 processData.template = template.getValue('template');
             }
 
@@ -616,14 +616,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-05 15:19:25</sys_created_on>
         <sys_id>3af957542fa0311010dfa1fef699b686</sys_id>
-        <sys_mod_count>268</sys_mod_count>
+        <sys_mod_count>270</sys_mod_count>
         <sys_name>Onboarding Form</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sp_widget_3af957542fa0311010dfa1fef699b686</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-10 20:29:01</sys_updated_on>
+        <sys_updated_on>2023-08-11 19:03:46</sys_updated_on>
         <template><![CDATA[<div>
     <div class="screen-form" ng-show="c.situation == 2">
         <div class="panel panel-default">
@@ -926,7 +926,7 @@
         </div>
     </div>
 
-    <div class="screen-finished" ng-show="c.situation == 3 || c.situation == 4 || c.situation == 5">
+    <div class="screen-finished" ng-show="c.situation == 3 || c.situation == 4 || c.situation == 5 || c.situation == 6">
         <p style="display: flex;justify-content: center;"> <span class="glyphicon glyphicon-ok-sign"
                 style="font-size: 133px;color: #4f52bd;"></span> </p>
         <h3 style="justify-content: center;display: flex;">Informações enviadas com sucesso</h3>

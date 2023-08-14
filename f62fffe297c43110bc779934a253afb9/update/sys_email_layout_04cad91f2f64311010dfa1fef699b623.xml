@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>true</advanced>
+        <advanced_layout><![CDATA[<table style="width: 100%; background-color: #ffffff;">
+<tbody>
+<tr>
+<td>
+<table style="width: 100%; text-align: center; max-width: 800px; margin: auto;">
+<tbody>
+<tr>
+<td style="margin-left: auto; margin-right: auto; height: 50px; background-color: #ffffff; text-align: left; padding: 15px 0px 15px 30px;"><img style="display: block; margin-left: auto; margin-right: auto;width: 80px;" title="" src="onboarding.png" alt="" align="baseline" border="" hspace="" vspace="" /></td>
+</tr>
+<tr>
+<td style="background-color: #ffffff; text-align: left; font-size: 16px; padding: 25px 0px 40px 30px;">
+<p>${notification:body}</p>
+</td>
+</tr>
+<tr>
+<td style="height: 87px; background-color: #5d77a9; ; text-align: center; font-size: 12px; color: #ffffff; line-height: 20px; font-weight: normal; font-style: normal; font-family: Arial, Helvetica, sans-serif;">${mail_script:app_eng_email_layout_footer}</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>]]></advanced_layout>
+        <description/>
+        <layout><![CDATA[<p><br data-mce-bogus="1"></p>]]></layout>
+        <name>Default Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 13:46:44</sys_created_on>
+        <sys_id>04cad91f2f64311010dfa1fef699b623</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Default Layout</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_email_layout_04cad91f2f64311010dfa1fef699b623</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 18:29:52</sys_updated_on>
+    </sys_email_layout>
+</record_update>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="8dcf736697c43110bc779934a253affa" extends="task" label="Admissions" max_length="40" name="x_788877_fob_admissions" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Admission Date" max_length="40" name="admission_date" type="glide_date"/>
         <element label="Contact Phone" max_length="40" name="contact_phone" type="string"/>
         <element label="CPF" max_length="40" name="cpf" type="string"/>
         <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Document Kit" mandatory="true" max_length="32" name="document_kit" reference="x_788877_fob_kits" reference_qual="kit_type=document^active=true^EQ" reference_qual_condition="kit_type=document^active=true^EQ" type="reference"/>
         <element label="Father Name" max_length="40" name="father_name" type="string"/>
-        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Male" sequence="0" value="M"/>
@@ -14,7 +15,8 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Home Number" max_length="40" name="home_number" type="string"/>
-        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Quantity Hours Month" max_length="40" name="hours_month" type="integer"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Marital status" max_length="40" name="marital_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Single" sequence="0" value="single"/>
@@ -24,7 +26,7 @@
         </element>
         <element label="Mother Name" max_length="40" name="mother_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Neighborhood" max_length="40" name="neighborhood" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Personal E-mail" max_length="40" name="personal_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Personal E-mail" mandatory="true" max_length="40" name="personal_email" type="string"/>
         <element label="RG" max_length="40" name="rg" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Situation" max_length="40" name="situation" type="string">
             <choice>
@@ -38,6 +40,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="street" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Subscription Kit" mandatory="true" max_length="32" name="subscription_kit" reference="x_788877_fob_kits" reference_qual="kit_type=signature^active=true^EQ" reference_qual_condition="kit_type=signature^active=true^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Term" mandatory="true" max_length="32" name="term" reference="x_788877_fob_templates" reference_qual="template_type=term_of_usage^EQ" reference_qual_condition="template_type=term_of_usage^EQ" type="reference"/>
         <element label="Terms of Use" max_length="40" name="terms_of_use" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="UF" max_length="40" name="uf" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Zip code" max_length="40" name="zip_code" type="string"/>

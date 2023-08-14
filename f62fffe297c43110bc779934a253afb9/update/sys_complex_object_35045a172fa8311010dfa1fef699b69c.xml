@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD71045a17f3a831108406d22e49d6ed9c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f62fffe297c43110bc779934a253afb9</scope_name>
+        <serialized_content>{"FlowDesigner:FD71045a17f3a831108406d22e49d6ed9c":{"password":"String","password.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"password\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"username\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD71045a17f3a831108406d22e49d6ed9c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Parm 2\",\"mandatory\":\"false\",\"uiUniqueId\":\"b5391294-0762-4a03-b0e9-5cb098dea339\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD71045a17f3a831108406d22e49d6ed9c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"5\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 17:54:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35045a172fa8311010dfa1fef699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD71045a17f3a831108406d22e49d6ed9c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_complex_object_35045a172fa8311010dfa1fef699b69c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 17:54:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

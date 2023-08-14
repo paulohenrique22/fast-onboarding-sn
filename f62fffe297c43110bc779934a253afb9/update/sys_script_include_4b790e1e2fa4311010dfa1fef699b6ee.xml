@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_788877_fob.ClientUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ClientUtil</name>
+        <script><![CDATA[var ClientUtil = Class.create();
+ClientUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    checkDocumentsIsValid: function() {
+		
+        var admission_id =  this.getParameter('admission_id');
+
+        var docs = new GlideRecord('x_788877_fob_documents');
+        docs.addQuery('admission', admission_id);
+        docs.query();
+
+        var result = [];
+
+        while (docs.next()) {
+            if (docs.getValue('revison') != 'open' && docs.getValue('revison') != 'accepted') {
+                result.push(false);
+            } else {
+                result.push(true);
+            }
+        }
+
+        var result_string = result.join(',');
+
+        if (result_string.includes('false')) {
+            return JSON.stringify({
+                "message": "invalido",
+                "value": false
+            });
+        } else {
+            return JSON.stringify({
+                "message": "valido",
+                "value": true
+            });
+        }
+    },
+    type: 'ClientUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 14:53:16</sys_created_on>
+        <sys_id>4b790e1e2fa4311010dfa1fef699b6ee</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ClientUtil</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_script_include_4b790e1e2fa4311010dfa1fef699b6ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 14:55:14</sys_updated_on>
+    </sys_script_include>
+</record_update>

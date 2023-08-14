@@ -24,7 +24,7 @@
                 gr.envelope_status = "canceled";
                 if (body.RejectionMessage) {
 
-                    gr.comments = 'O Envelope foi rejeitado \n <strong>Motivo:</strong> \n' + body.RejectionMessage + '\n' + JSON.stringify(request.body.data);
+                    gr.comments = 'O Envelope foi rejeitado \n Motivo: \n' + body.RejectionMessage + '\n' + JSON.stringify(request.body.data);
                 }
                 gr.update();
             }
@@ -59,8 +59,9 @@
                     );
                 }
 
-
-                gr.comments = 'case 1: \n' + JSON.stringify(request.body.data);
+				gr.comments = 'O Envelope foi assinado e finalizado';
+				
+                // gr.comments = 'case 1: \n' + JSON.stringify(request.body.data);
 
                 var timestamps = body.UpdatedAt;
                 var timestamps_without_milisecounds = timestamps.split('.')[0];
@@ -104,14 +105,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-28 18:05:18</sys_created_on>
         <sys_id>75237e752fdcb11010dfa1fef699b6e5</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>WebHook Sign</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_ws_operation_75237e752fdcb11010dfa1fef699b6e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-08 17:16:50</sys_updated_on>
+        <sys_updated_on>2023-08-11 17:00:42</sys_updated_on>
         <web_service_definition display_value="Fast Onboarding">51a236752fdcb11010dfa1fef699b662</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
