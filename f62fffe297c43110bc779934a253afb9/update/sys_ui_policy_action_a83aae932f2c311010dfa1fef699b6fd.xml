@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>admission_date</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 19:32:12</sys_created_on>
+        <sys_id>a83aae932f2c311010dfa1fef699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admission_date</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a83aae932f2c311010dfa1fef699b6fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 19:32:12</sys_updated_on>
+        <table>x_788877_fob_admissions</table>
+        <ui_policy display_value=" When the situation is Job information">d9d9e6932f2c311010dfa1fef699b668</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 20:22:02</sys_created_on>
+        <sys_id>5aa5ba532f6c311010dfa1fef699b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_788877_fob_documents.snc_external</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_security_acl display_value="x_788877_fob_documents">03e404ba97c43110bc779934a253afff</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5aa5ba532f6c311010dfa1fef699b6a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 20:22:02</sys_updated_on>
+        <sys_user_role display_value="snc_external" name="snc_external">940ba702933002009c8579b4f47ffbe2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</application>
+        <file_path/>
+        <instance_id>0aefd4a4dba7511042b321c405961911</instance_id>
+        <instance_name>dev145546</instance_name>
+        <name>sys_security_acl_role_5aa5ba532f6c311010dfa1fef699b6a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-14 20:22:02</sys_created_on><sys_id>5aa5ba532f6c311010dfa1fef699b6a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_788877_fob_documents.snc_external</sys_name><sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package><sys_policy/><sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope><sys_security_acl display_value="x_788877_fob_documents">03e404ba97c43110bc779934a253afff</sys_security_acl><sys_update_name>sys_security_acl_role_5aa5ba532f6c311010dfa1fef699b6a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-14 20:22:02</sys_updated_on><sys_user_role display_value="snc_external" name="snc_external">940ba702933002009c8579b4f47ffbe2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1230795035</payload_hash>
+        <record_name>x_788877_fob_documents.snc_external</record_name>
+        <reverted_from/>
+        <source>5eb0613d2f58b11010dfa1fef699b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-14 20:22:03</sys_created_on>
+        <sys_id>85b5f6932f6c311010dfa1fef699b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189f5b676630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 20:22:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>89b5f6937f6c311060e1c9f5ec15c46b</update_guid>
+        <update_guid_history>89b5f6937f6c311060e1c9f5ec15c46b:-1230795035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_788877_fob_documents.snc_external">fd3e5c802fb8311010dfa1fef699b692</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 17:15:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4377062b79534c5d9430350cc79676a9</sys_id>
+        <sys_metadata>5aa5ba532f6c311010dfa1fef699b6a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_788877_fob_documents.snc_external</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_parent display_value="x_788877_fob_documents">03e404ba97c43110bc779934a253afff</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_scope_delete display_value="">0948bd938bb4406a89945d643f888d91</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5aa5ba532f6c311010dfa1fef699b6a7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5aa5ba532f6c311010dfa1fef699b6a7">85b5f6932f6c311010dfa1fef699b66c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 17:15:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

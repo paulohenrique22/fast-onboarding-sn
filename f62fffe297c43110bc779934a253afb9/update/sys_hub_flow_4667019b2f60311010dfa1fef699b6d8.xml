@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>send_email_to_candidate</internal_name>
-        <label_cache>[{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record.user_name","label":"1 - Create Record➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Admissions Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Admissions Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"last_name"},{"name":"Created_1.current.personal_email","label":"Trigger - Record Created➛Admissions Record➛Personal E-mail","reference":"","reference_display":"Personal E-mail","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"personal_email"},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a0bae40-e2b7-4b3d-8e20-27dad425361d.password","label":"6 - Random Password➛Password","reference_display":"Password","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f64abf92-0024-4b56-9fdf-a307550b5034"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Admissions Record","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Admissions Table","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Admissions Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_788877_fob_admissions","column_name":"sys_id"}]</label_cache>
+        <label_cache>[{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record.user_name","label":"1 - Create Record➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Admissions Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Admissions Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"last_name"},{"name":"Created_1.current.personal_email","label":"Trigger - Record Created➛Admissions Record➛Personal E-mail","reference":"","reference_display":"Personal E-mail","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"personal_email"},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a0bae40-e2b7-4b3d-8e20-27dad425361d.password","label":"7 - Random Password➛Password","reference_display":"Password","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f64abf92-0024-4b56-9fdf-a307550b5034"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Admissions Record","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Admissions Table","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Admissions Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_788877_fob_admissions","column_name":"sys_id"}]</label_cache>
         <master_snapshot>bf5dda532fe8311010dfa1fef699b621</master_snapshot>
         <name>Send Email to Candidate</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4667019b2f60311010dfa1fef699b6d8</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Send Email to Candidate</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_hub_flow_4667019b2f60311010dfa1fef699b6d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:49</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:14</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4667019b2f60311010dfa1fef699b6d8"/>
@@ -74,14 +74,14 @@
         <identifier>4667019b2f60311010dfa1fef699b6d8</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-08-14 18:35:48</sys_created_on>
-        <sys_id>fc6d1e532fe8311010dfa1fef699b616</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2023-08-16 16:53:13</sys_created_on>
+        <sys_id>a5199cc82f78311010dfa1fef699b6fe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:48</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:13</sys_updated_on>
         <trigger display_value="">b06d1e532fe8311010dfa1fef699b616</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4667019b2f60311010dfa1fef699b6d8^sys_idNOT INfc6d1e532fe8311010dfa1fef699b616"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4667019b2f60311010dfa1fef699b6d8^sys_idNOT INa5199cc82f78311010dfa1fef699b6fe"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=4667019b2f60311010dfa1fef699b6d8^sys_idNOT IN4dc789932fa0311010dfa1fef699b62f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 12:21:43</sys_created_on>
         <sys_id>4dc789932fa0311010dfa1fef699b62f</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:49</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:14</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -208,14 +208,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 12:21:43</sys_created_on>
         <sys_id>74c789932fa0311010dfa1fef699b62b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:48</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -291,14 +291,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 12:21:42</sys_created_on>
         <sys_id>b4c789932fa0311010dfa1fef699b626</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:48</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -313,25 +313,25 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=4667019b2f60311010dfa1fef699b6d8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4667019b2f60311010dfa1fef699b6d8"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=4667019b2f60311010dfa1fef699b6d8^sys_idNOT IN472e819b2f24311010dfa1fef699b62a,4f2e819b2f24311010dfa1fef699b619,72ac91df2f64311010dfa1fef699b60c,75195adb2fa8311010dfa1fef699b6b6,cf2e819b2f24311010dfa1fef699b622,f3fc12532fe8311010dfa1fef699b6d7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4667019b2f60311010dfa1fef699b6d8^sys_idNOT IN472e819b2f24311010dfa1fef699b62a,4f2e819b2f24311010dfa1fef699b619,72ac91df2f64311010dfa1fef699b60c,75195adb2fa8311010dfa1fef699b6b6,94279c082f78311010dfa1fef699b6be,cf2e819b2f24311010dfa1fef699b622,f3fc12532fe8311010dfa1fef699b6d7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Set Password">66db41d72f24311010dfa1fef699b6a2</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>colocando o Password temporario</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 12:49:43</sys_created_on>
         <sys_id>472e819b2f24311010dfa1fef699b62a</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:37:33</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
         <ui_id>4fd108eb-b4b1-4c92-828e-d4799310cee5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=472e819b2f24311010dfa1fef699b62a"/>
@@ -381,7 +381,7 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Criando um usuário para o candidato acessar a plataforma</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
         <order>1</order>
@@ -390,10 +390,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 12:49:43</sys_created_on>
         <sys_id>4f2e819b2f24311010dfa1fef699b619</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:37:33</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
         <ui_id>94a3bf0f-0c57-44ee-9015-3bca21da6204</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4f2e819b2f24311010dfa1fef699b619"/>
@@ -459,16 +459,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>dfed61b9-7c27-447c-a3b5-01bb66122a6d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 13:53:03</sys_created_on>
         <sys_id>72ac91df2f64311010dfa1fef699b60c</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:37:33</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
         <ui_id>d91398d5-53a0-422a-a869-0956def9d478</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72ac91df2f64311010dfa1fef699b60c"/>
@@ -544,19 +544,19 @@
         <action_inputs/>
         <action_type display_value="Create Event Queue">55f7929b2fa8311010dfa1fef699b653</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Evento para disparar o e-mail para o candidato</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:17:02</sys_created_on>
         <sys_id>75195adb2fa8311010dfa1fef699b6b6</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:37:33</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
         <ui_id>91415572-1216-41c0-803f-3035e2d54aed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=75195adb2fa8311010dfa1fef699b6b6"/>
@@ -629,32 +629,94 @@
         <input_name>parm_2</input_name>
         <instance>75195adb2fa8311010dfa1fef699b6b6</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"parm_2":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar userID \u003d fd_data._1__create_record.record.user_name.toString();\nvar userTempPassword \u003d fd_data._6__random_password.password;\n\nreturn JSON.stringify({\"username\":userID,\"password\":userTempPassword});"}}</script>
+        <script>{"parm_2":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar userID \u003d fd_data._1__create_record.record.user_name.toString();\nvar userTempPassword \u003d fd_data._7__random_password.password;\n\nreturn JSON.stringify({\"username\":userID,\"password\":userTempPassword});"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:17:02</sys_created_on>
         <sys_id>fd195adb2fa8311010dfa1fef699b6b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:17:02</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:52:52</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=75195adb2fa8311010dfa1fef699b6b6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Random Password">e13981172fe0311010dfa1fef699b665</action_type>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Adicionando esse usuário criado em um Grupo</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
-        <order>6</order>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:44:40</sys_created_on>
+        <sys_id>94279c082f78311010dfa1fef699b6be</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
+        <ui_id>cafa12bb-9468-4ed2-8db8-f2dd67006f3d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=94279c082f78311010dfa1fef699b6be"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>94279c082f78311010dfa1fef699b6be</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:44:40</sys_created_on>
+        <sys_id>d4279c082f78311010dfa1fef699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:44:40</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=94279c082f78311010dfa1fef699b6be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>94279c082f78311010dfa1fef699b6be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:44:40</sys_created_on>
+        <sys_id>9c279c082f78311010dfa1fef699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:44:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>94279c082f78311010dfa1fef699b6be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:44:40</sys_created_on>
+        <sys_id>54279c082f78311010dfa1fef699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:44:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>user={{94a3bf0f-0c57-44ee-9015-3bca21da6204.record}}^group={"display":"FOB Candidatos","value":"c75514842f78311010dfa1fef699b6cb","sys_id":"c75514842f78311010dfa1fef699b6cb"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=94279c082f78311010dfa1fef699b6be"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=94279c082f78311010dfa1fef699b6be"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Random Password">e13981172fe0311010dfa1fef699b665</action_type>
+        <action_type_parent/>
+        <comment>Gerando um Password aleatório</comment>
+        <display_text/>
+        <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
+        <order>7</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 12:49:43</sys_created_on>
         <sys_id>cf2e819b2f24311010dfa1fef699b622</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:37:33</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
         <ui_id>1a0bae40-e2b7-4b3d-8e20-27dad425361d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cf2e819b2f24311010dfa1fef699b622"/>
@@ -665,19 +727,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Atualizo o processo para a próxima etapa</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">4667019b2f60311010dfa1fef699b6d8</flow>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:34:07</sys_created_on>
         <sys_id>f3fc12532fe8311010dfa1fef699b6d7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:37:33</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:55:22</sys_updated_on>
         <ui_id>15c31f0d-95fe-49ee-9af6-4639c6b7e616</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3fc12532fe8311010dfa1fef699b6d7"/>
@@ -763,7 +825,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>dfed61b9-7c27-447c-a3b5-01bb66122a6d</parent_ui_id>
@@ -771,10 +833,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 13:20:55</sys_created_on>
         <sys_id>80551d572f64311010dfa1fef699b691</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:49</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:14</sys_updated_on>
         <ui_id>82709e7f-aa5f-40e0-9b3a-43bda1d4e1c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -795,7 +857,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -803,10 +865,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 13:11:17</sys_created_on>
         <sys_id>831319932f64311010dfa1fef699b610</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:49</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:14</sys_updated_on>
         <ui_id>19ed8c15-f942-4f25-81b5-f76c74576f10</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -845,7 +907,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=831319932f64311010dfa1fef699b610"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0c551d572f64311010dfa1fef699b68c</block>
-        <comment/>
+        <comment>Caso ocorra um erro é escrito um comentário no processo</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -857,7 +919,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -865,10 +927,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 13:20:55</sys_created_on>
         <sys_id>c4551d572f64311010dfa1fef699b68d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:49</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:14</sys_updated_on>
         <ui_id>dfed61b9-7c27-447c-a3b5-01bb66122a6d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -946,17 +1008,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b46d1e532fe8311010dfa1fef699b618","name":"plan","plan_signature":null}}</plan>
         <plan_id>4667019b2f60311010dfa1fef699b6d8</plan_id>
-        <snapshot>c6cd96932fe8311010dfa1fef699b62a</snapshot>
+        <snapshot>7c991c0c2f78311010dfa1fef699b634</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b46d1e532fe8311010dfa1fef699b618</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:48</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:13</sys_updated_on>
         <trigger display_value="">b06d1e532fe8311010dfa1fef699b616</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4667019b2f60311010dfa1fef699b6d8"/>
@@ -971,7 +1033,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>send_email_to_candidate</internal_name>
-        <label_cache>[{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record.user_name","label":"1 - Create Record➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Admissions Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Admissions Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"last_name"},{"name":"Created_1.current.personal_email","label":"Trigger - Record Created➛Admissions Record➛Personal E-mail","reference":"","reference_display":"Personal E-mail","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"personal_email"},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a0bae40-e2b7-4b3d-8e20-27dad425361d.password","label":"6 - Random Password➛Password","reference_display":"Password","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f64abf92-0024-4b56-9fdf-a307550b5034"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Admissions Record","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Admissions Table","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Admissions Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_788877_fob_admissions","column_name":"sys_id"}]</label_cache>
+        <label_cache>[{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.__action_status__","label":"1 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record.user_name","label":"1 - Create Record➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Admissions Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Admissions Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"last_name"},{"name":"Created_1.current.personal_email","label":"Trigger - Record Created➛Admissions Record➛Personal E-mail","reference":"","reference_display":"Personal E-mail","type":"string","base_type":"string","parent_table_name":"x_788877_fob_admissions","column_name":"personal_email"},{"name":"94a3bf0f-0c57-44ee-9015-3bca21da6204.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a0bae40-e2b7-4b3d-8e20-27dad425361d.password","label":"7 - Random Password➛Password","reference_display":"Password","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f64abf92-0024-4b56-9fdf-a307550b5034"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Admissions Record","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Admissions Table","reference":"x_788877_fob_admissions","reference_display":"Admissions","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Admissions Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_788877_fob_admissions","column_name":"sys_id"}]</label_cache>
         <master>true</master>
         <name>Send Email to Candidate</name>
         <natlang/>
@@ -988,15 +1050,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bf5dda532fe8311010dfa1fef699b621</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:44</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=bf5dda532fe8311010dfa1fef699b621"/>
@@ -1011,10 +1073,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:47</sys_created_on>
         <sys_id>1c6dda532fe8311010dfa1fef699b6b3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:48</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:13</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1068,7 +1130,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1127,14 +1189,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:45</sys_created_on>
         <sys_id>335dda532fe8311010dfa1fef699b637</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:45</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1151,7 +1213,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1210,14 +1272,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:44</sys_created_on>
         <sys_id>f35dda532fe8311010dfa1fef699b624</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:44</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1232,7 +1294,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=bf5dda532fe8311010dfa1fef699b621"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bf5dda532fe8311010dfa1fef699b621"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=bf5dda532fe8311010dfa1fef699b621^sys_idNOT IN086dda532fe8311010dfa1fef699b65c,106dda532fe8311010dfa1fef699b6ab,1c6dda532fe8311010dfa1fef699b6b1,886dda532fe8311010dfa1fef699b697,986dda532fe8311010dfa1fef699b6a0,c46dda532fe8311010dfa1fef699b654"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bf5dda532fe8311010dfa1fef699b621^sys_idNOT IN086dda532fe8311010dfa1fef699b65c,106dda532fe8311010dfa1fef699b6ab,1c6dda532fe8311010dfa1fef699b6b1,886dda532fe8311010dfa1fef699b697,986dda532fe8311010dfa1fef699b6a0,bb5898882f78311010dfa1fef699b633,c46dda532fe8311010dfa1fef699b654"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1241,16 +1303,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>dfed61b9-7c27-447c-a3b5-01bb66122a6d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:46</sys_created_on>
         <sys_id>086dda532fe8311010dfa1fef699b65c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:46</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>d91398d5-53a0-422a-a869-0956def9d478</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=086dda532fe8311010dfa1fef699b65c"/>
@@ -1326,19 +1388,19 @@
         <action_inputs/>
         <action_type display_value="Create Event Queue">55f7929b2fa8311010dfa1fef699b653</action_type>
         <action_type_parent display_value="Create Event Queue">6c9f869f2f68311010dfa1fef699b653</action_type_parent>
-        <comment/>
+        <comment>Evento para disparar o e-mail para o candidato</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:46</sys_created_on>
         <sys_id>106dda532fe8311010dfa1fef699b6ab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:46</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>91415572-1216-41c0-803f-3035e2d54aed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=106dda532fe8311010dfa1fef699b6ab"/>
@@ -1411,13 +1473,13 @@
         <input_name>parm_2</input_name>
         <instance>106dda532fe8311010dfa1fef699b6ab</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"parm_2":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar userID \u003d fd_data._1__create_record.record.user_name.toString();\nvar userTempPassword \u003d fd_data._6__random_password.password;\n\nreturn JSON.stringify({\"username\":userID,\"password\":userTempPassword});"}}</script>
+        <script>{"parm_2":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar userID \u003d fd_data._1__create_record.record.user_name.toString();\nvar userTempPassword \u003d fd_data._7__random_password.password;\n\nreturn JSON.stringify({\"username\":userID,\"password\":userTempPassword});"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:46</sys_created_on>
         <sys_id>146dda532fe8311010dfa1fef699b6ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:46</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:08</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=106dda532fe8311010dfa1fef699b6ab"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1425,19 +1487,19 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Atualizo o processo para a próxima etapa</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:46</sys_created_on>
         <sys_id>1c6dda532fe8311010dfa1fef699b6b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:47</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>15c31f0d-95fe-49ee-9af6-4639c6b7e616</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1c6dda532fe8311010dfa1fef699b6b1"/>
@@ -1512,19 +1574,19 @@
         <action_inputs/>
         <action_type display_value="Random Password">e13981172fe0311010dfa1fef699b665</action_type>
         <action_type_parent display_value="Random Password">8d6841172fa0311010dfa1fef699b6d8</action_type_parent>
-        <comment/>
+        <comment>Gerando um Password aleatório</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
-        <order>6</order>
+        <order>7</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:46</sys_created_on>
         <sys_id>886dda532fe8311010dfa1fef699b697</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:46</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>1a0bae40-e2b7-4b3d-8e20-27dad425361d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=886dda532fe8311010dfa1fef699b697"/>
@@ -1535,19 +1597,19 @@
         <action_inputs/>
         <action_type display_value="Set Password">66db41d72f24311010dfa1fef699b6a2</action_type>
         <action_type_parent display_value="Set Password">da1a09572fe0311010dfa1fef699b639</action_type_parent>
-        <comment/>
+        <comment>colocando o Password temporario</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:46</sys_created_on>
         <sys_id>986dda532fe8311010dfa1fef699b6a0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:46</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>4fd108eb-b4b1-4c92-828e-d4799310cee5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=986dda532fe8311010dfa1fef699b6a0"/>
@@ -1583,7 +1645,69 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment/>
+        <comment>Adicionando esse usuário criado em um Grupo</comment>
+        <display_text/>
+        <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:50:06</sys_created_on>
+        <sys_id>bb5898882f78311010dfa1fef699b633</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
+        <ui_id>cafa12bb-9468-4ed2-8db8-f2dd67006f3d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb5898882f78311010dfa1fef699b633"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb5898882f78311010dfa1fef699b633</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:50:06</sys_created_on>
+        <sys_id>bf5898882f78311010dfa1fef699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:50:06</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb5898882f78311010dfa1fef699b633"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bb5898882f78311010dfa1fef699b633</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:50:06</sys_created_on>
+        <sys_id>7b5898882f78311010dfa1fef699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:50:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bb5898882f78311010dfa1fef699b633</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 16:50:06</sys_created_on>
+        <sys_id>3f5898882f78311010dfa1fef699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 16:50:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>user={{94a3bf0f-0c57-44ee-9015-3bca21da6204.record}}^group={"display":"FOB Candidatos","value":"c75514842f78311010dfa1fef699b6cb","sys_id":"c75514842f78311010dfa1fef699b6cb"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb5898882f78311010dfa1fef699b633"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb5898882f78311010dfa1fef699b633"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Criando um usuário para o candidato acessar a plataforma</comment>
         <display_text/>
         <flow display_value="Send Email to Candidate">bf5dda532fe8311010dfa1fef699b621</flow>
         <order>1</order>
@@ -1592,10 +1716,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:45</sys_created_on>
         <sys_id>c46dda532fe8311010dfa1fef699b654</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:45</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>94a3bf0f-0c57-44ee-9015-3bca21da6204</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c46dda532fe8311010dfa1fef699b654"/>
@@ -1668,7 +1792,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1676,10 +1800,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:45</sys_created_on>
         <sys_id>086dda532fe8311010dfa1fef699b642</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:45</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>19ed8c15-f942-4f25-81b5-f76c74576f10</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1718,7 +1842,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=086dda532fe8311010dfa1fef699b642"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0c551d572f64311010dfa1fef699b68c</block>
-        <comment/>
+        <comment>Caso ocorra um erro é escrito um comentário no processo</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -1730,7 +1854,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1738,10 +1862,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:45</sys_created_on>
         <sys_id>486dda532fe8311010dfa1fef699b648</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:45</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>dfed61b9-7c27-447c-a3b5-01bb66122a6d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1775,7 +1899,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>dfed61b9-7c27-447c-a3b5-01bb66122a6d</parent_ui_id>
@@ -1783,10 +1907,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-14 18:35:45</sys_created_on>
         <sys_id>846dda532fe8311010dfa1fef699b64c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 18:35:45</sys_updated_on>
+        <sys_updated_on>2023-08-16 16:53:09</sys_updated_on>
         <ui_id>82709e7f-aa5f-40e0-9b3a-43bda1d4e1c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

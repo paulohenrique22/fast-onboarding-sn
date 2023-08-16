@@ -27,16 +27,20 @@
         g_scratchpad._action = g_form.getActionName();
         g_scratchpad._ajaxChecked = false;
 
+        if (g_form.getActionName() == 'validate_document') {
+			
+            var admission_id = g_form.getUniqueValue();
+            var demo = new GlideAjax('ClientUtil');
+            demo.addParam('sysparm_name', 'checkDocumentsIsValid');
+            demo.addParam('admission_id', admission_id);
+            demo.getXML(callBack);
+			
+			return false;
+        }
 
-        var admission_id = g_form.getUniqueValue();
-
-        var demo = new GlideAjax('ClientUtil');
-        demo.addParam('sysparm_name', 'checkDocumentsIsValid');
-        demo.addParam('admission_id', admission_id);
-        demo.getXML(callBack);
 
 
-        return false;
+        
 
     }
 
@@ -66,7 +70,7 @@ function callBack(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>25a6065e2fa4311010dfa1fef699b6ec</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>OnSubmit - Admission</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
@@ -74,7 +78,7 @@ function callBack(response) {
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sys_script_client_25a6065e2fa4311010dfa1fef699b6ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-11 16:49:20</sys_updated_on>
+        <sys_updated_on>2023-08-16 13:42:31</sys_updated_on>
         <table>x_788877_fob_admissions</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

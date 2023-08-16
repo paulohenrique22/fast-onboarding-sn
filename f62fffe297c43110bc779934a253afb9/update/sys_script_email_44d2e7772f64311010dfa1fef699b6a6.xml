@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
     <sys_script_email action="INSERT_OR_UPDATE">
-        <name>first_access</name>
+        <name>reject_document</name>
         <new_lines_to_html>false</new_lines_to_html>
         <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
     /* Optional EmailOutbound */
@@ -8,38 +8,32 @@
     /* Optional GlideRecord */
     event) {
 
-    var name = current.getValue('first_name') + ' ' + current.getValue('last_name');
-    var p2 = JSON.parse(event.parm2);
-
-    var title = gs.getMessage('<p>Prezado candidato {0},</p>', [name]);
-    var message = gs.getMessage('Acesse o link com as suas credenciais informadas para enviar os documentos e preencher algumas informações pessoais para dar continuidade no seu processo de admissão.');
-
-    var access = gs.getMessage('<p><strong>Username:</strong>{0}<br><strong>Password:</strong>{1}</p>', [p2.username, p2.password]);
+    var message = gs.getMessage('<p>Alguns dos documentos enviados foram rejeitados, acesse o link abaixo para envia-los novamente.</p>');
 
     var button = '';
-	var instanceURL = gs.getProperty('glide.servlet.uri');
-
+    var instanceURL = gs.getProperty('glide.servlet.uri');
     var linkProcess = instanceURL + 'esc?id=onboarding&proc=' + current.getUniqueValue();
 
     var buttonOpenTags = '<p style="text-align: center; margin-top: 40px;"><a class="btn" href="' + linkProcess + '">';
+
     var buttonCloseTags = '</a></p>';
     button = gs.getMessage('{0}Acessar{1}', [buttonOpenTags, buttonCloseTags]);
-
-    var email_template = title + "\n" + message + "\n" + access + "\n" + button;
+    var email_template = message + '\n' + button;
+	
     template.print(email_template);
 
 })(current, template, email, email_action, event);]]></script>
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-08-14 14:05:13</sys_created_on>
-        <sys_id>246f19932fa4311010dfa1fef699b6b2</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>first_access</sys_name>
+        <sys_created_on>2023-08-16 12:56:18</sys_created_on>
+        <sys_id>44d2e7772f64311010dfa1fef699b6a6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>reject_document</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
-        <sys_update_name>sys_script_email_246f19932fa4311010dfa1fef699b6b2</sys_update_name>
+        <sys_update_name>sys_script_email_44d2e7772f64311010dfa1fef699b6a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-16 17:18:31</sys_updated_on>
+        <sys_updated_on>2023-08-16 13:23:18</sys_updated_on>
     </sys_script_email>
 </record_update>

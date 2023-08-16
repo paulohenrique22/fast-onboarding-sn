@@ -6,32 +6,32 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>true</create_access>
+        <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
-        <label>Documents</label>
+        <label>Admission Tasks</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_788877_fob_documents</name>
-        <number_ref/>
+        <name>x_788877_fob_admission_tasks</name>
+        <number_ref display_value="ADTASK">3e72aa1b2fe8311010dfa1fef699b6e2</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class display_value="Task" name="task">00598f86c51021108c8b506e733c4c9f</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-18 21:41:18</sys_created_on>
-        <sys_id>19a4cc7a97c43110bc779934a253af5d</sys_id>
+        <sys_created_on>2023-08-14 18:58:01</sys_created_on>
+        <sys_id>b0f1eed72fe8311010dfa1fef699b6cc</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Documents</sys_name>
+        <sys_name>Admission Tasks</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
-        <sys_update_name>sys_db_object_19a4cc7a97c43110bc779934a253af5d</sys_update_name>
+        <sys_update_name>sys_db_object_b0f1eed72fe8311010dfa1fef699b6cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 20:25:06</sys_updated_on>
-        <update_access>true</update_access>
-        <user_role display_value="x_788877_fob.documents_user" name="x_788877_fob.documents_user">7ae44c7a97c43110bc779934a253afa7</user_role>
+        <sys_updated_on>2023-08-14 18:58:04</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_788877_fob.admission_tasks_user" name="x_788877_fob.admission_tasks_user">b572221b2fe8311010dfa1fef699b60f</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
