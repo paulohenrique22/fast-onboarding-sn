@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Documents">6e0dac102f74311010dfa1fef699b6a8</ais_search_source>
+        <label>Documents</label>
+        <name>Documents</name>
+        <order>200</order>
+        <search_context_config display_value="Fast Onboarding Workspace AI Search Configuration">79ec60102e743110b920bf5174d27dfa</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 12:58:53</sys_created_on>
+        <sys_id>ae0dac102f74311010dfa1fef699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Documents</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_search_filter_ae0dac102f74311010dfa1fef699b6c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 12:58:53</sys_updated_on>
+    </sys_search_filter>
+</record_update>

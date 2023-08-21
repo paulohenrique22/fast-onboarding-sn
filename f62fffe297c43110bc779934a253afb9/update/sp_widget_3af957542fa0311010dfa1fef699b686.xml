@@ -86,6 +86,37 @@
         })
     }
 
+    $scope.consultCEP = function (event) {
+        var cep = event.target.value
+
+        if (cep == "") {
+            return false;
+        }
+
+        var pattern = /^[0-9]*$/g
+
+        if (pattern.test(cep) == false) {
+            alert('O campo CEP só aceita números');
+            c.stepsData.step2.zip_code = "";
+            return false;
+        }
+			
+				c.data.action = "consultCEP";	
+				c.data.bodyData = JSON.stringify(c.stepsData);
+
+        c.server.update().then(function (response) {
+
+            c.data.action = undefined;
+            c.data.bodyData = undefined;
+						
+						c.stepsData.step2.neighborhood = response.payload.step2.neighborhood;
+						c.stepsData.step2.street = response.payload.step2.street;
+						c.stepsData.step2.uf = response.payload.step2.uf;
+					
+						
+        });
+    }
+
     $scope.cpfMask = function (event) {
         console.log(event.target.value);
 
@@ -476,7 +507,7 @@
             // gs.addInfoMessage(JSON.stringify(processData));
             data.payload = processData;
             data.situation = situation;
-						getDocumentToSend();
+            getDocumentToSend();
 
         }
 
@@ -535,7 +566,7 @@
                 gr.update();
 
                 data.situation = 3;
-								gs.addInfoMessage('Formulario enviado com sucesso');
+                gs.addInfoMessage('Formulário enviado com sucesso');
             }
         } catch (err) {
             gs.addErrorMessage(err)
@@ -554,15 +585,15 @@
 
         var gru = new GRUtil();
         var file_id = gru.createFileB64OnRecord(tbName, RecordId, FileName, contentType, base64);
-			
-			
-				var gr = new GlideRecord(tbName);
-				gr.addQuery('sys_id',RecordId);
-				gr.query();
-				if(gr.next()){
-					gr.revison = "pending";
-					gr.update();
-				}
+
+
+        var gr = new GlideRecord(tbName);
+        gr.addQuery('sys_id', RecordId);
+        gr.query();
+        if (gr.next()) {
+            gr.revison = "pending";
+            gr.update();
+        }
         return { 'file_id': file_id, 'record_id': '1' };
 
     };
@@ -593,6 +624,45 @@
 
     };
 
+    function consultCEP() {
+
+        try {
+            var bodyData = JSON.parse(input.bodyData);
+            var cep = bodyData.step2.zip_code;
+
+            // gs.addInfoMessage(cep);
+
+            var baseUrl = 'https://viacep.com.br/ws/' + cep + '/json/'
+            var request = new sn_ws.RESTMessageV2();
+            request.setEndpoint(baseUrl);
+            request.setHttpMethod('GET');
+
+            request.setRequestHeader("Accept", "application/json");
+            request.setRequestHeader("Content-type", "application/json");
+
+
+            var response = request.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+            var responseBodyParsed = JSON.parse(responseBody);
+            
+            if (responseBodyParsed.erro == 'true') {
+                return gs.addErrorMessage('Ocorreu um erro a consultar o endereço desse CEP, por favor digite manualmente.')
+            }
+
+
+            bodyData.step2.neighborhood = responseBodyParsed.bairro;
+            bodyData.step2.street = responseBodyParsed.logradouro;
+            bodyData.step2.uf = responseBodyParsed.uf;
+
+            data.payload = bodyData;
+
+
+        } catch (err) {
+            gs.addErrorMessage(err);
+        }
+    }
+
 
 
     if (input) {
@@ -605,8 +675,10 @@
         } else if (input.action == 'saveFile') {
             saveFile();
         } else if (input.action == 'getDocumentToSend') {
-					getDocumentToSend();
-				}
+            getDocumentToSend();
+        } else if (input.action == 'consultCEP') {
+            consultCEP();
+        }
     }
 
 
@@ -616,14 +688,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-05 15:19:25</sys_created_on>
         <sys_id>3af957542fa0311010dfa1fef699b686</sys_id>
-        <sys_mod_count>277</sys_mod_count>
+        <sys_mod_count>295</sys_mod_count>
         <sys_name>Onboarding Form</sys_name>
         <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
         <sys_update_name>sp_widget_3af957542fa0311010dfa1fef699b686</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-14 21:42:12</sys_updated_on>
+        <sys_updated_on>2023-08-21 14:37:16</sys_updated_on>
         <template><![CDATA[<div>
     <div class="screen-form" ng-show="c.situation == 2">
         <div class="panel panel-default">
@@ -805,6 +877,7 @@
                                 <div class="form-group">
                                     <label>Zip Code</label>
                                     <input type="text" class="form-control" name="zip_code"
+                                        ng-blur="consultCEP($event)"
                                         ng-model="c.stepsData.step2.zip_code" />
                                     <small ng-show="form.zip_code.$error.required && form.zip_code.$touched"
                                         class="text-danger">

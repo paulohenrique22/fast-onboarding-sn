@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_788877_fob_document_type,x_788877_fob_kits,x_788877_fob_doc_fields,x_788877_fob_m2m_kit_documents,x_788877_fob_envelope,x_788877_fob_documents,x_788877_fob_admission_tasks,x_788877_fob_admissions,x_788877_fob_templates</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>fast-onboarding-workspace Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_788877_fob_fast_onboarding_workspace_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 12:58:52</sys_created_on>
+        <sys_id>1a0dac102f74311010dfa1fef699b68f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_788877_fob_fast_onboarding_workspace_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>ais_dictionary_1a0dac102f74311010dfa1fef699b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 12:58:55</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

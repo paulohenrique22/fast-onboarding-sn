@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8d1de0502f74311010dfa1fef699b60e" sys_domain="global" table="x_788877_fob_admissions" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 12:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>811de0502f74311010dfa1fef699b615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_788877_fob_admissions" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">8d1de0502f74311010dfa1fef699b60e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">0d1de0502f74311010dfa1fef699b612</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 12:59:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 12:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>511de0502f74311010dfa1fef699b6a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_788877_fob_admissions" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">8d1de0502f74311010dfa1fef699b60e</sys_ui_form>
+            <sys_ui_section caption="Contact" display_value="Contact" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">1d1de0502f74311010dfa1fef699b6a1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 12:59:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 12:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>151de0502f74311010dfa1fef699b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_788877_fob_admissions" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">8d1de0502f74311010dfa1fef699b60e</sys_ui_form>
+            <sys_ui_section caption="Personal Info" display_value="Personal Info" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">111de0502f74311010dfa1fef699b6a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 12:59:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 12:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd1de0502f74311010dfa1fef699b6aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_788877_fob_admissions" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">8d1de0502f74311010dfa1fef699b60e</sys_ui_form>
+            <sys_ui_section caption="Job information" display_value="Job information" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">d91de0502f74311010dfa1fef699b6a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 12:59:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 12:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d1de0502f74311010dfa1fef699b6df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_788877_fob_admissions" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">8d1de0502f74311010dfa1fef699b60e</sys_ui_form>
+            <sys_ui_section caption="Historic and Work Notes" display_value="Historic and Work Notes" name="x_788877_fob_admissions" sys_domain="global" view="71ec60103a74311070e2ff4dfddde7fa">991de0502f74311010dfa1fef699b6de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 12:59:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_788877_fob_admissions</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-17 12:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d1de0502f74311010dfa1fef699b60e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_788877_fob_admissions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8d1de0502f74311010dfa1fef699b60e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-17 12:59:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace FOB" name="workspace-fob">71ec60103a74311070e2ff4dfddde7fa</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

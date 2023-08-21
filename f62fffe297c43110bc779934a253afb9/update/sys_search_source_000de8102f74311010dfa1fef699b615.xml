@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_788877_fob_documents">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Fast Onboarding Workspace - x_788877_fob_documents</name>
+        <roles/>
+        <source_table>x_788877_fob_documents</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 12:58:43</sys_created_on>
+        <sys_id>000de8102f74311010dfa1fef699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fast Onboarding Workspace - x_788877_fob_documents</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_search_source_000de8102f74311010dfa1fef699b615</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 12:58:43</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=000de8102f74311010dfa1fef699b615"/>
+</record_update>

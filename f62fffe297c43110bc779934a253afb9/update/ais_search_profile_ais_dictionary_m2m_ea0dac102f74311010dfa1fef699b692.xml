@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_788877_fob_fast_onboarding_workspace_search_profile_default_spell_check_dictionary">1a0dac102f74311010dfa1fef699b68f</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="fast-onboarding-workspace Search Profile">b9eca010d87431104bca4d59eee02003</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 12:58:52</sys_created_on>
+        <sys_id>ea0dac102f74311010dfa1fef699b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_788877_fob_fast_onboarding_workspace_search_profile_default_spell_check_dictionary.fast-onboarding-workspace Search Profile</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_ea0dac102f74311010dfa1fef699b692</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 12:58:52</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

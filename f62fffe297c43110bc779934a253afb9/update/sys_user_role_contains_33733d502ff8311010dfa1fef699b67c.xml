@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="sn_change_read" name="sn_change_read">d8e675e8532323008ef67c2c0fc587f6</contains>
+        <role display_value="x_788877_fob.manager" name="x_788877_fob.manager">739128c42fb8311010dfa1fef699b698</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:06:43</sys_created_on>
+        <sys_id>33733d502ff8311010dfa1fef699b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_change_read.x_788877_fob.manager</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_user_role_contains_33733d502ff8311010dfa1fef699b67c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:06:43</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

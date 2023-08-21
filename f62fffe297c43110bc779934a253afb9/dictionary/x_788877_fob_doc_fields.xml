@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="35533d6d2fd4711010dfa1fef699b6a1" label="Document Fields" max_length="40" name="x_788877_fob_doc_fields" type="collection">
+    <element db_object_id="35533d6d2fd4711010dfa1fef699b6a1" label="Document Fields" max_length="40" name="x_788877_fob_doc_fields" text_index="true" type="collection">
         <element label="Document" max_length="32" name="document" reference="x_788877_fob_document_type" type="reference"/>
         <element label="Field Label" max_length="40" name="field_label" type="string"/>
         <element attributes="allow_null=true,allow_references=false" dependent="target_table" dependent_on_field="target_table" label="Field Name" max_length="80" name="field_name" type="field_name" use_dependent_field="true"/>

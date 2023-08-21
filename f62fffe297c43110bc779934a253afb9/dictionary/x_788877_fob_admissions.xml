@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="8dcf736697c43110bc779934a253affa" extends="task" label="Admissions" max_length="40" name="x_788877_fob_admissions" type="collection">
+    <element audit="true" db_object_id="8dcf736697c43110bc779934a253affa" extends="task" label="Admissions" max_length="40" name="x_788877_fob_admissions" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Admission Date" max_length="40" name="admission_date" type="glide_date"/>
         <element label="Contact Phone" max_length="40" name="contact_phone" type="string"/>
         <element label="CPF" max_length="40" name="cpf" type="string"/>

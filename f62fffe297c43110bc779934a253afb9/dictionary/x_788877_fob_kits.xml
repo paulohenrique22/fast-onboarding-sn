@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0525047a97c43110bc779934a253af25" label="Kits" max_length="40" name="x_788877_fob_kits" type="collection">
+    <element db_object_id="0525047a97c43110bc779934a253af25" label="Kits" max_length="40" name="x_788877_fob_kits" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
         <element choice="1" label="Kit Type" mandatory="true" max_length="40" name="kit_type" type="choice">

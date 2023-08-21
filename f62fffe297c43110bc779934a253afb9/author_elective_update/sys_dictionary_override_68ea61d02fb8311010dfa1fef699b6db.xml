@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>true</display_override>
+        <element>description</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_788877_fob_admission_tasks</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 17:29:31</sys_created_on>
+        <sys_id>68ea61d02fb8311010dfa1fef699b6db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_update_name>sys_dictionary_override_68ea61d02fb8311010dfa1fef699b6db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:33:10</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</application>
+        <file_path/>
+        <instance_id>0aefd4a4dba7511042b321c405961911</instance_id>
+        <instance_name>dev145546</instance_name>
+        <name>sys_dictionary_override_68ea61d02fb8311010dfa1fef699b6db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>true</display_override><element>description</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_788877_fob_admission_tasks</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 17:29:31</sys_created_on><sys_id>68ea61d02fb8311010dfa1fef699b6db</sys_id><sys_mod_count>2</sys_mod_count><sys_name>description</sys_name><sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package><sys_policy/><sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope><sys_update_name>sys_dictionary_override_68ea61d02fb8311010dfa1fef699b6db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 17:33:10</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>1336311524</payload_hash>
+        <record_name>description</record_name>
+        <reverted_from/>
+        <source>5eb0613d2f58b11010dfa1fef699b63d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 17:33:10</sys_created_on>
+        <sys_id>24dba1d42fb8311010dfa1fef699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a048eef890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:33:10</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>acdb219416b831109aa7f9388c2eef15</update_guid>
+        <update_guid_history>acdb219416b831109aa7f9388c2eef15:1336311524,628b2994e4b83110b584365931abc307:83133947,7afae5d02cb831103beb5aed40074b8c:-82724962</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 17:35:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>244e784d5f98465594a5a8ed8552d611</sys_id>
+        <sys_metadata>68ea61d02fb8311010dfa1fef699b6db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Fast Onboarding" source="x_788877_fob">f62fffe297c43110bc779934a253afb9</sys_package>
+        <sys_parent display_value="Admission">11f1221b2fe8311010dfa1fef699b618</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fast Onboarding">f62fffe297c43110bc779934a253afb9</sys_scope>
+        <sys_scope_delete display_value="">0948bd938bb4406a89945d643f888d91</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_68ea61d02fb8311010dfa1fef699b6db</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_68ea61d02fb8311010dfa1fef699b6db">24dba1d42fb8311010dfa1fef699b699</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:35:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

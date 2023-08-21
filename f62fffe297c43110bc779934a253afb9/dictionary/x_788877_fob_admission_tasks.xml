@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b0f1eed72fe8311010dfa1fef699b6cc" extends="task" label="Admission Tasks" max_length="40" name="x_788877_fob_admission_tasks" type="collection">
+    <element db_object_id="b0f1eed72fe8311010dfa1fef699b6cc" extends="task" label="Admission Tasks" max_length="40" name="x_788877_fob_admission_tasks" text_index="true" type="collection">
         <element label="Admission" max_length="32" name="admission" reference="x_788877_fob_admissions" type="reference"/>
     </element>
 </database>
